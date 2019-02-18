@@ -130,6 +130,183 @@
             "root_type": "Liability"
         },
         "CLASSE 2. FRAIS D'ETABLISSEMENT. ACTIFS IMMOBILISES ET CREANCES A PLUS D'UN AN": {
+            "20-FRAIS D'ETABLISSEMENT": {
+                "200-Frais de constitution et d'augmentation de capital": {
+                    "2000-Frais de constitution et d'augmentation de capital": {},
+                    "2009-Amortissements sur frais de constitution et d'augmentation de capital": {}
+                },
+                "201-Frais d'\u00e9mission d'emprunts et primes de remboursement": {
+                    "2010-Agios sur emprunts et frais d'\u00e9mission d'emprunts": {},
+                    "2019-Amortissements sur agios sur emprunts et frais d'\u00e9mission d'emprunts": {}
+                },
+                "202-Autres frais d'\u00e9tablissement": {
+                    "2020-Autres frais d'\u00e9tablissement": {},
+                    "2029-Amortissements sur autres frais d'\u00e9tablissement": {}
+                },
+                "203-Int\u00e9r\u00eats intercalaires": {
+                    "2030-Int\u00e9r\u00eats intercalaires": {},
+                    "2039-Amortissements sur int\u00e9r\u00eats intercalaires": {}
+                },
+                "204-Frais de restructuration": {
+                    "2040-Co\u00fbt des frais de restructuration": {},
+                    "2049-Amortissements sur frais de restructuration": {}
+                }
+            },
+            "21-IMMOBILISATIONS INCORPORELLES": {
+                "210-Frais de recherche et de d\u00e9veloppement": {
+                    "2100-Frais de recherche et de mise au point": {},
+                    "2108-Plus-values act\u00e9es sur frais de recherche et de mise au point": {},
+                    "2109-Amortissements sur frais de recherche et de mise au point": {}
+                },
+                "211-Concessions, brevets, licences, savoir-faire, marques et droits similaires": {
+                    "2110-Concessions, brevets, licences, savoir-faire, marques, etc...": {},
+                    "2118-Plus-values act\u00e9es sur concessions, brevets, etc...": {},
+                    "2119-Amortissements sur concessions, brevets, etc...": {}
+                },
+                "212-Goodwill": {
+                    "2120-Co\u00fbt d'acquisition": {},
+                    "2128-Plus-values act\u00e9es": {},
+                    "2129-Amortissements sur goodwill": {}
+                },
+                "213-Acomptes vers\u00e9s": {}
+            },
+            "22-TERRAINS ET CONSTRUCTIONS": {
+                "220-Terrains": {
+                    "2200-Terrains": {},
+                    "2201-Frais d'acquisition sur terrains": {},
+                    "2208-Plus-values act\u00e9es sur terrains": {},
+                    "2209-Amortissements et r\u00e9ductions de valeur": {
+                        "22090-Amortissements sur frais d'acquisition": {},
+                        "22091-R\u00e9ductions de valeur sur terrains": {}
+                    }
+                },
+                "221-Constructions": {
+                    "2210-B\u00e2timents industriels": {},
+                    "2211-B\u00e2timents administratifs et commerciaux": {},
+                    "2212-Autres b\u00e2timents d'exploitation": {},
+                    "2213-Voies de transport et ouvrages d'art": {},
+                    "2215-Constructions sur sol d'autrui": {},
+                    "2216-Frais d'acquisition sur constructions": {},
+                    "2218-Plus-values act\u00e9es": {
+                        "22180-Sur b\u00e2timents industriels": {},
+                        "22181-Sur b\u00e2timents administratifs et commerciaux": {},
+                        "22182-Sur autres b\u00e2timents d'exploitation": {},
+                        "22184-Sur voies de transport et ouvrages d'art": {}
+                    },
+                    "2219-Amortissements sur constructions": {
+                        "22190-Sur b\u00e2timents industriels": {},
+                        "22191-Sur b\u00e2timents administratifs et commerciaux": {},
+                        "22192-Sur autres b\u00e2timents d'exploitation": {},
+                        "22194-Sur voies de transport et ouvrages d'art": {},
+                        "22195-Sur constructions sur sol d'autrui": {},
+                        "22196-Sur frais d'acquisition sur constructions": {}
+                    }
+                },
+                "222-Terrains b\u00e2tis": {
+                    "2220-Valeur d'acquisition": {
+                        "22200-B\u00e2timents industriels": {},
+                        "22201-B\u00e2timents administratifs et commerciaux": {},
+                        "22202-Autres b\u00e2timents d'exploitation": {},
+                        "22203-Voies de transport et ouvrages d'art": {},
+                        "22204-Frais d'acquisition des terrains \u00e0 b\u00e2tir": {}
+                    },
+                    "2228-Plus-values act\u00e9es": {
+                        "22280-Sur b\u00e2timents industriels": {},
+                        "22281-Sur b\u00e2timents administratifs et commerciaux": {},
+                        "22282-Sur autres b\u00e2timents d'exploitation": {},
+                        "22283-Sur voies de transport et ouvrages d'art": {}
+                    },
+                    "2229-Amortissements sur terrains b\u00e2tis": {
+                        "22290-Sur b\u00e2timents industriels": {},
+                        "22291-Sur b\u00e2timents administratifs et commerciaux": {},
+                        "22292-Sur autres b\u00e2timents d'exploitation": {},
+                        "22293-Sur voies de transport et ouvrages d'art": {},
+                        "22294-Sur frais d'acquisition des terrains b\u00e2tis": {}
+                    }
+                },
+                "223-Autres droits r\u00e9els sur des immeubles": {
+                    "2230-Valeur d'acquisition": {},
+                    "2238-Plus-values act\u00e9es": {},
+                    "2239-Amortissements": {}
+                }
+            },
+            "23-INSTALLATIONS, MACHINES ET OUTILLAGE": {
+                "230-Installations": {
+                    "2300-Installation d'eau": {},
+                    "2301-Installation d'\u00e9lectricit\u00e9": {},
+                    "2302-Installation de vapeur": {},
+                    "2303-Installation de gaz": {},
+                    "2304-Installation de chauffage": {},
+                    "2305-Installation de conditionnement d'air": {},
+                    "2306-Installation de chargement": {}
+                },
+                "231-Machines": {
+                    "2310-Division A": {},
+                    "2311-Division B": {}
+                },
+                "237-Outillage": {
+                    "2370-Division A": {},
+                    "2371-Division B": {}
+                },
+                "238-Plus-values act\u00e9es": {
+                    "2380-Sur installations": {},
+                    "2381-Sur machines": {},
+                    "2382-Sur outillage": {}
+                },
+                "239-Amortissements": {
+                    "2390-Sur installations": {},
+                    "2391-Sur machines": {},
+                    "2392-Sur outillage": {}
+                }
+            },
+            "24-MOBILIER ET MATERIEL ROULANT": {
+                "Mat\u00e9riel roulant": {
+                    "Amortissements sur mat\u00e9riel roulant": {
+                        "Amortissements sur mat\u00e9riel automobile": {},
+                        "Idem sur mat\u00e9riel a\u00e9rien": {},
+                        "Idem sur mat\u00e9riel ferroviaire": {},
+                        "Idem sur mat\u00e9riel fluvial": {},
+                        "Idem sur mat\u00e9riel naval": {}
+                    },
+                    "Mat\u00e9riel automobile": {
+                        "Camions": {},
+                        "Voitures": {}
+                    },
+                    "Mat\u00e9riel a\u00e9rien": {},
+                    "Mat\u00e9riel ferroviaire": {},
+                    "Mat\u00e9riel fluvial": {},
+                    "Mat\u00e9riel naval": {},
+                    "Plus-values sur mat\u00e9riel roulant": {
+                        "Idem sur mat\u00e9riel a\u00e9rien": {},
+                        "Idem sur mat\u00e9riel ferroviaire": {},
+                        "Idem sur mat\u00e9riel fluvial": {},
+                        "Idem sur mat\u00e9riel naval": {},
+                        "Plus-values sur mat\u00e9riel automobile": {}
+                    }
+                },
+                "240-Mobilier": {
+                    "2400-Mobilier": {
+                        "24000-Mobilier des b\u00e2timents industriels": {},
+                        "24001-Mobilier des b\u00e2timents administratifs et commerciaux": {},
+                        "24002-Mobilier des autres b\u00e2timents d'exploitation": {},
+                        "24003-Mobilier oeuvres sociales": {}
+                    },
+                    "2401-Mat\u00e9riel de bureau et de service social": {
+                        "24010-Des b\u00e2timents industriels": {},
+                        "24011-Des b\u00e2timents administratifs et commerciaux": {},
+                        "24012-Des autres b\u00e2timents d'exploitation": {},
+                        "24013-Des oeuvres sociales": {}
+                    },
+                    "2408-Plus-values act\u00e9es": {
+                        "24080-Plus-values act\u00e9es sur mobilier": {},
+                        "24081-Plus-values act\u00e9es sur mat\u00e9riel de bureau et service social": {}
+                    },
+                    "2409-Amortissements": {
+                        "24090-Amortissements sur mobilier": {},
+                        "24091-Amortissements sur mat\u00e9riel de bureau et service social": {}
+                    }
+                }
+            },
             "AUTRES IMMOBILISATIONS CORPORELLES": {
                 "Amortissements sur autres immobilisations corporelles": {
                     "Amortissements sur emballages r\u00e9cup\u00e9rables": {},
@@ -181,28 +358,6 @@
                     },
                     "Retenues sur garanties": {},
                     "R\u00e9ductions de valeur act\u00e9es": {}
-                }
-            },
-            "FRAIS D'ETABLISSEMENT": {
-                "Autres frais d'\u00e9tablissement": {
-                    "Amortissements sur autres frais d'\u00e9tablissement": {},
-                    "Autres frais d'\u00e9tablissement": {}
-                },
-                "Frais d'\u00e9mission d'emprunts et primes de remboursement": {
-                    "Agios sur emprunts et frais d'\u00e9mission d'emprunts": {},
-                    "Amortissements sur agios sur emprunts et frais d'\u00e9mission d'emprunts": {}
-                },
-                "Frais de constitution et d'augmentation de capital": {
-                    "Amortissements sur frais de constitution et d'augmentation de capital": {},
-                    "Frais de constitution et d'augmentation de capital": {}
-                },
-                "Frais de restructuration": {
-                    "Amortissements sur frais de restructuration": {},
-                    "Co\u00fbt des frais de restructuration": {}
-                },
-                "Int\u00e9r\u00eats intercalaires": {
-                    "Amortissements sur int\u00e9r\u00eats intercalaires": {},
-                    "Int\u00e9r\u00eats intercalaires": {}
                 }
             },
             "IMMOBILISATION DETENUES EN LOCATION-FINANCEMENT ET DROITS SIMILAIRES": {
@@ -281,161 +436,6 @@
                     "Plus-values act\u00e9es": {},
                     "R\u00e9ductions de valeurs act\u00e9es": {},
                     "Valeur d'acquisition": {}
-                }
-            },
-            "IMMOBILISATIONS INCORPORELLES": {
-                "Acomptes vers\u00e9s": {},
-                "Concessions, brevets, licences, savoir-faire, marques et droits similaires": {
-                    "Amortissements sur concessions, brevets, etc...": {},
-                    "Concessions, brevets, licences, savoir-faire, marques, etc...": {},
-                    "Plus-values act\u00e9es sur concessions, brevets, etc...": {}
-                },
-                "Frais de recherche et de d\u00e9veloppement": {
-                    "Amortissements sur frais de recherche et de mise au point": {},
-                    "Frais de recherche et de mise au point": {},
-                    "Plus-values act\u00e9es sur frais de recherche et de mise au point": {}
-                },
-                "Goodwill": {
-                    "Amortissements sur goodwill": {},
-                    "Co\u00fbt d'acquisition": {},
-                    "Plus-values act\u00e9es": {}
-                }
-            },
-            "INSTALLATIONS, MACHINES ET OUTILLAGE": {
-                "Amortissements": {
-                    "Sur installations": {},
-                    "Sur machines": {},
-                    "Sur outillage": {}
-                },
-                "Installations": {
-                    "Installation d'eau": {},
-                    "Installation d'\u00e9lectricit\u00e9": {},
-                    "Installation de chargement": {},
-                    "Installation de chauffage": {},
-                    "Installation de conditionnement d'air": {},
-                    "Installation de gaz": {},
-                    "Installation de vapeur": {}
-                },
-                "Machines": {
-                    "Division A": {},
-                    "Division B": {}
-                },
-                "Outillage": {
-                    "Division A": {},
-                    "Division B": {}
-                },
-                "Plus-values act\u00e9es": {
-                    "Sur installations": {},
-                    "Sur machines": {},
-                    "Sur outillage": {}
-                }
-            },
-            "MOBILIER ET MATERIEL ROULANT": {
-                "Mat\u00e9riel roulant": {
-                    "Amortissements sur mat\u00e9riel roulant": {
-                        "Amortissements sur mat\u00e9riel automobile": {},
-                        "Idem sur mat\u00e9riel a\u00e9rien": {},
-                        "Idem sur mat\u00e9riel ferroviaire": {},
-                        "Idem sur mat\u00e9riel fluvial": {},
-                        "Idem sur mat\u00e9riel naval": {}
-                    },
-                    "Mat\u00e9riel automobile": {
-                        "Camions": {},
-                        "Voitures": {}
-                    },
-                    "Mat\u00e9riel a\u00e9rien": {},
-                    "Mat\u00e9riel ferroviaire": {},
-                    "Mat\u00e9riel fluvial": {},
-                    "Mat\u00e9riel naval": {},
-                    "Plus-values sur mat\u00e9riel roulant": {
-                        "Idem sur mat\u00e9riel a\u00e9rien": {},
-                        "Idem sur mat\u00e9riel ferroviaire": {},
-                        "Idem sur mat\u00e9riel fluvial": {},
-                        "Idem sur mat\u00e9riel naval": {},
-                        "Plus-values sur mat\u00e9riel automobile": {}
-                    }
-                },
-                "Mobilier": {
-                    "Amortissements": {
-                        "Amortissements sur mat\u00e9riel de bureau et service social": {},
-                        "Amortissements sur mobilier": {}
-                    },
-                    "Mat\u00e9riel de bureau et de service social": {
-                        "Des autres b\u00e2timents d'exploitation": {},
-                        "Des b\u00e2timents administratifs et commerciaux": {},
-                        "Des b\u00e2timents industriels": {},
-                        "Des oeuvres sociales": {}
-                    },
-                    "Mobilier": {
-                        "Mobilier des autres b\u00e2timents d'exploitation": {},
-                        "Mobilier des b\u00e2timents administratifs et commerciaux": {},
-                        "Mobilier des b\u00e2timents industriels": {},
-                        "Mobilier oeuvres sociales": {}
-                    },
-                    "Plus-values act\u00e9es": {
-                        "Plus-values act\u00e9es sur mat\u00e9riel de bureau et service social": {},
-                        "Plus-values act\u00e9es sur mobilier": {}
-                    }
-                }
-            },
-            "TERRAINS ET CONSTRUCTIONS": {
-                "Autres droits r\u00e9els sur des immeubles": {
-                    "Amortissements": {},
-                    "Plus-values act\u00e9es": {},
-                    "Valeur d'acquisition": {}
-                },
-                "Constructions": {
-                    "Amortissements sur constructions": {
-                        "Sur autres b\u00e2timents d'exploitation": {},
-                        "Sur b\u00e2timents administratifs et commerciaux": {},
-                        "Sur b\u00e2timents industriels": {},
-                        "Sur constructions sur sol d'autrui": {},
-                        "Sur frais d'acquisition sur constructions": {},
-                        "Sur voies de transport et ouvrages d'art": {}
-                    },
-                    "Autres b\u00e2timents d'exploitation": {},
-                    "B\u00e2timents administratifs et commerciaux": {},
-                    "B\u00e2timents industriels": {},
-                    "Constructions sur sol d'autrui": {},
-                    "Frais d'acquisition sur constructions": {},
-                    "Plus-values act\u00e9es": {
-                        "Sur autres b\u00e2timents d'exploitation": {},
-                        "Sur b\u00e2timents administratifs et commerciaux": {},
-                        "Sur b\u00e2timents industriels": {},
-                        "Sur voies de transport et ouvrages d'art": {}
-                    },
-                    "Voies de transport et ouvrages d'art": {}
-                },
-                "Terrains": {
-                    "Amortissements et r\u00e9ductions de valeur": {
-                        "Amortissements sur frais d'acquisition": {},
-                        "R\u00e9ductions de valeur sur terrains": {}
-                    },
-                    "Frais d'acquisition sur terrains": {},
-                    "Plus-values act\u00e9es sur terrains": {},
-                    "Terrains": {}
-                },
-                "Terrains b\u00e2tis": {
-                    "Amortissements sur terrains b\u00e2tis": {
-                        "Sur autres b\u00e2timents d'exploitation": {},
-                        "Sur b\u00e2timents administratifs et commerciaux": {},
-                        "Sur b\u00e2timents industriels": {},
-                        "Sur frais d'acquisition des terrains b\u00e2tis": {},
-                        "Sur voies de transport et ouvrages d'art": {}
-                    },
-                    "Plus-values act\u00e9es": {
-                        "Sur autres b\u00e2timents d'exploitation": {},
-                        "Sur b\u00e2timents administratifs et commerciaux": {},
-                        "Sur b\u00e2timents industriels": {},
-                        "Sur voies de transport et ouvrages d'art": {}
-                    },
-                    "Valeur d'acquisition": {
-                        "Autres b\u00e2timents d'exploitation": {},
-                        "B\u00e2timents administratifs et commerciaux": {},
-                        "B\u00e2timents industriels": {},
-                        "Frais d'acquisition des terrains \u00e0 b\u00e2tir": {},
-                        "Voies de transport et ouvrages d'art": {}
-                    }
                 }
             },
             "root_type": ""
