@@ -3,133 +3,131 @@
     "name": "Belgian - PCMN",
     "tree": {
         "CLASSE 1": {
-            "BENEFICE (PERTE) REPORTE(E)": {
-                "B\u00e9n\u00e9fice report\u00e9": {},
-                "Perte report\u00e9e": {}
-            },
-            "CAPITAL": {
-                "Capital non appel\u00e9": {},
-                "Capital souscrit ou capital personnel": {
-                    "Capital amorti": {},
-                    "Capital non amorti": {}
+            "10-CAPITAL": {
+                "100-Capital souscrit ou capital personnel": {
+                    "1000-Capital non amorti": {},
+                    "1001-Capital amorti": {}
                 },
-                "Compte de l'exploitant": {
-                    "Imp\u00f4ts personnels": {},
-                    "Op\u00e9rations courantes": {},
-                    "R\u00e9mun\u00e9rations et autres avantages": {}
+                "101-Capital non appel\u00e9": {},
+                "109-Compte de l'exploitant": {
+                    "1090-Op\u00e9rations courantes": {},
+                    "1091-Imp\u00f4ts personnels": {},
+                    "1092-R\u00e9mun\u00e9rations et autres avantages": {}
                 }
             },
-            "COMPTES DE LIAISON DES ETABLISSEMENTS ET SUCCURSALES": {},
-            "DETTES A PLUS D'UN AN": {
-                "Acomptes re\u00e7us sur commandes": {},
-                "Autres emprunts": {},
-                "Cautionnements re\u00e7us en num\u00e9raires": {},
-                "Dettes commerciales": {
-                    "Effets \u00e0 payer": {
-                        "Entreprises apparent\u00e9es": {
-                            "Entreprises avec lesquelles il existe un lien de participation": {},
-                            "Entreprises li\u00e9es": {}
+            "11-PRIMES D'EMISSION": {},
+            "12-PLUS-VALUES DE REEVALUATION": {
+                "120-Plus-values de r\u00e9\u00e9valuation sur immobilisations incorporelles": {
+                    "1200-Plus-values de r\u00e9\u00e9valuation": {},
+                    "1201-Reprises de r\u00e9ductions de valeur": {}
+                },
+                "121-Plus-values de r\u00e9\u00e9valuation sur immobilisations corporelles": {
+                    "1210-Plus-values de r\u00e9\u00e9valuation": {},
+                    "1211-Reprises de r\u00e9ductions de valeur": {}
+                },
+                "122-Plus-values de r\u00e9\u00e9valuation sur immobilisations financi\u00e8res": {
+                    "1220-Plus-values de r\u00e9\u00e9valuation": {},
+                    "1221-Reprises de r\u00e9ductions de valeur": {}
+                },
+                "123-Plus-values de r\u00e9\u00e9valuation sur stocks": {},
+                "124-Reprises de r\u00e9ductions de valeur sur placements de tr\u00e9sorerie": {}
+            },
+            "13-RESERVES": {
+                "130-R\u00e9serve l\u00e9gale": {},
+                "131-R\u00e9serves indisponibles": {
+                    "1310-R\u00e9serve pour actions propres": {},
+                    "1311-Autres r\u00e9serves indisponibles": {}
+                },
+                "132-R\u00e9serves immunis\u00e9es": {},
+                "133-R\u00e9serves disponibles": {
+                    "1330-R\u00e9serve pour r\u00e9gularisation de dividendes": {},
+                    "1331-R\u00e9serve pour renouvellement des immobilisations": {},
+                    "1332-R\u00e9serve pour installations en faveur du personnel": {},
+                    "1333-R\u00e9serves libres": {}
+                }
+            },
+            "14-BENEFICE (PERTE) REPORTE(E)": {},
+            "15-SUBSIDES EN CAPITAL": {
+                "150-Montants obtenus": {},
+                "151-Montants transf\u00e9r\u00e9s aux r\u00e9sultats": {}
+            },
+            "16-PROVISIONS POUR RISQUES ET CHARGES": {
+                "160-Provisions pour pensions et obligations similaires": {},
+                "161-Provisions pour charges fiscales": {},
+                "162-Provisions pour grosses r\u00e9parations et gros entretiens": {},
+                "163-Provisions pour autres risques et charges": {},
+                "164-Provisions pour s\u00fbret\u00e9s personnelles ou r\u00e9elles constitu\u00e9es \u00e0 l'appui de dettes et d'engagements de tiers": {},
+                "165-Provisions pour engagements relatifs \u00e0 l'acquisition ou \u00e0 la cession d'immobilisations": {},
+                "166-Provisions pour ex\u00e9cution de commandes pass\u00e9es ou re\u00e7ues": {},
+                "167-Provisions pour positions et march\u00e9s \u00e0 terme en devises ou positions et march\u00e9s \u00e0 terme en marchandises": {},
+                "168-Provisions pour garanties techniques attach\u00e9es aux ventes et prestations d\u00e9j\u00e0 effectu\u00e9es par l'entreprise": {}
+            },
+            "17-DETTES A PLUS D'UN AN": {
+                "170-Emprunts subordonn\u00e9s": {
+                    "1700-Convertibles": {},
+                    "1701-Non convertibles": {}
+                },
+                "171-Emprunts obligataires non subordonn\u00e9s": {
+                    "1710-Convertibles": {},
+                    "1711-Non convertibles": {}
+                },
+                "172-Dettes de location-financement et assimil\u00e9s": {
+                    "1720-Dettes de location-financement de biens immobiliers": {},
+                    "1721-Dettes de location-financement de biens mobiliers": {},
+                    "1722-Dettes sur droits r\u00e9els sur immeubles": {}
+                },
+                "173-Etablissements de cr\u00e9dit": {
+                    "1730-Dettes en compte": {
+                        "17300-Banque A": {},
+                        "17301-Banque B": {}
+                    },
+                    "1731-Promesses": {
+                        "17310-Banque A": {},
+                        "17311-Banque B": {}
+                    },
+                    "1732-Cr\u00e9dits d'acceptation": {
+                        "17320-Banque A": {},
+                        "17321-Banque B": {}
+                    }
+                },
+                "174-Autres emprunts": {},
+                "175-Dettes commerciales": {
+                    "1750-Fournisseurs : dettes en compte": {
+                        "17500-Entreprises apparent\u00e9es": {
+                            "175000-Entreprises li\u00e9es": {},
+                            "175001-Entreprises avec lesquelles il existe un lien de participation": {}
                         },
-                        "Fournisseurs ordinaires": {
-                            "Fournisseurs C.E.E.": {},
-                            "Fournisseurs belges": {},
-                            "Fournisseurs importation": {}
+                        "17501-Fournisseurs ordinaires": {
+                            "175010-Fournisseurs belges": {},
+                            "175011-Fournisseurs C.E.E.": {},
+                            "175012Fournisseurs importation": {}
                         }
                     },
-                    "Fournisseurs : dettes en compte": {
-                        "Entreprises apparent\u00e9es": {
-                            "Entreprises avec lesquelles il existe un lien de participation": {},
-                            "Entreprises li\u00e9es": {}
+                    "1751-Effets \u00e0 payer": {
+                        "17510-Entreprises apparent\u00e9es": {
+                            "175100-Entreprises li\u00e9es": {},
+                            "175101-Entreprises avec lesquelles il existe un lien de participation": {}
                         },
-                        "Fournisseurs ordinaires": {
-                            "Fournisseurs C.E.E.": {},
-                            "Fournisseurs belges": {},
-                            "Fournisseurs importation": {}
+                        "17511-Fournisseurs ordinaires": {
+                            "175110-Fournisseurs belges": {},
+                            "175111-Fournisseurs C.E.E.": {},
+                            "175112-Fournisseurs importation": {}
                         }
                     }
                 },
-                "Dettes de location-financement et assimil\u00e9s": {
-                    "Dettes de location-financement de biens immobiliers": {},
-                    "Dettes de location-financement de biens mobiliers": {},
-                    "Dettes sur droits r\u00e9els sur immeubles": {}
-                },
-                "Dettes diverses": {
-                    "Administrateurs, g\u00e9rants, associ\u00e9s": {},
-                    "Autres dettes diverses": {},
-                    "Autres entreprises avec lesquelles il existe un lien de participation": {},
-                    "Dettes envers les coparticipants des associations momentan\u00e9es et en participation": {},
-                    "Entreprises li\u00e9es": {},
-                    "Rentes viag\u00e8res capitalis\u00e9es": {}
-                },
-                "Emprunts obligataires non subordonn\u00e9s": {
-                    "Convertibles": {},
-                    "Non convertibles": {}
-                },
-                "Emprunts subordonn\u00e9s": {
-                    "Convertibles": {},
-                    "Non convertibles": {}
-                },
-                "Etablissements de cr\u00e9dit": {
-                    "Cr\u00e9dits d'acceptation": {
-                        "Banque A": {},
-                        "Banque B": {}
-                    },
-                    "Dettes en compte": {
-                        "Banque A": {},
-                        "Banque B": {}
-                    },
-                    "Promesses": {
-                        "Banque A": {},
-                        "Banque B": {}
-                    }
+                "176-Acomptes re\u00e7us sur commandes": {},
+                "178-Cautionnements re\u00e7us en num\u00e9raires": {},
+                "179-Dettes diverses": {
+                    "1790-Entreprises li\u00e9es": {},
+                    "1791-Autres entreprises avec lesquelles il existe un lien de participation": {},
+                    "1792-Administrateurs, g\u00e9rants, associ\u00e9s": {},
+                    "1794-Rentes viag\u00e8res capitalis\u00e9es": {},
+                    "1798-Dettes envers les coparticipants des associations momentan\u00e9es et en participation": {},
+                    "1799-Autres dettes diverses": {}
                 }
             },
-            "PLUS-VALUES DE REEVALUATION": {
-                "Plus-values de r\u00e9\u00e9valuation sur immobilisations corporelles": {
-                    "Plus-values de r\u00e9\u00e9valuation": {},
-                    "Reprises de r\u00e9ductions de valeur": {}
-                },
-                "Plus-values de r\u00e9\u00e9valuation sur immobilisations financi\u00e8res": {
-                    "Plus-values de r\u00e9\u00e9valuation": {},
-                    "Reprises de r\u00e9ductions de valeur": {}
-                },
-                "Plus-values de r\u00e9\u00e9valuation sur immobilisations incorporelles": {
-                    "Plus-values de r\u00e9\u00e9valuation": {},
-                    "Reprises de r\u00e9ductions de valeur": {}
-                },
-                "Plus-values de r\u00e9\u00e9valuation sur stocks": {},
-                "Reprises de r\u00e9ductions de valeur sur placements de tr\u00e9sorerie": {}
-            },
-            "PRIMES D'EMISSION": {},
-            "PROVISIONS POUR RISQUES ET CHARGES": {
-                "Provisions pour autres risques et charges": {},
-                "Provisions pour charges fiscales": {},
-                "Provisions pour engagements relatifs \u00e0 l'acquisition ou \u00e0 la cession d'immobilisations": {},
-                "Provisions pour ex\u00e9cution de commandes pass\u00e9es ou re\u00e7ues": {},
-                "Provisions pour garanties techniques attach\u00e9es aux ventes et prestations d\u00e9j\u00e0 effectu\u00e9es par l'entreprise": {},
-                "Provisions pour grosses r\u00e9parations et gros entretiens": {},
-                "Provisions pour pensions et obligations similaires": {},
-                "Provisions pour positions et march\u00e9s \u00e0 terme en devises ou positions et march\u00e9s \u00e0 terme en marchandises": {},
-                "Provisions pour s\u00fbret\u00e9s personnelles ou r\u00e9elles constitu\u00e9es \u00e0 l'appui de dettes et d'engagements de tiers": {}
-            },
-            "RESERVES": {
-                "R\u00e9serve l\u00e9gale": {},
-                "R\u00e9serves disponibles": {
-                    "R\u00e9serve pour installations en faveur du personnel  1333 R\u00e9serves libres": {},
-                    "R\u00e9serve pour renouvellement des immobilisations": {},
-                    "R\u00e9serve pour r\u00e9gularisation de dividendes": {}
-                },
-                "R\u00e9serves immunis\u00e9es": {},
-                "R\u00e9serves indisponibles": {
-                    "Autres r\u00e9serves indisponibles": {},
-                    "R\u00e9serve pour actions propres": {}
-                }
-            },
-            "SUBSIDES EN CAPITAL": {
-                "Montants obtenus": {},
-                "Montants transf\u00e9r\u00e9s aux r\u00e9sultats": {}
-            },
-            "root_type": ""
+            "18-COMPTES DE LIAISON DES ETABLISSEMENTS ET SUCCURSALES": {},
+            "root_type": "Liability"
         },
         "CLASSE 2. FRAIS D'ETABLISSEMENT. ACTIFS IMMOBILISES ET CREANCES A PLUS D'UN AN": {
             "AUTRES IMMOBILISATIONS CORPORELLES": {
