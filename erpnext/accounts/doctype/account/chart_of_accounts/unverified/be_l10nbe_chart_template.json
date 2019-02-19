@@ -1324,125 +1324,129 @@
         }
       },
       "63-AMORTISSEMENTS, REDUCTIONS DE VALEUR ET PROVISIONS POUR RISQUES ET CHARGES": {
-        "Dotations aux amortissements et aux réductions de valeur sur immobilisations": {
-          "Dotations aux amortissements sur frais d'établissement": {},
-          "Dotations aux amortissements sur immobilisations corporelles": {},
-          "Dotations aux amortissements sur immobilisations incorporelles": {},
-          "Dotations aux réductions de valeur sur immobilisations corporelles": {},
-          "Dotations aux réductions de valeur sur immobilisations incorporelles": {}
+        "630-Dotations aux amortissements et aux réductions de valeur sur immobilisations": {
+          "6300-Dotations aux amortissements sur frais d'établissement": {},
+          "6301-Dotations aux amortissements sur immobilisations incorporelles": {},
+          "6302-Dotations aux amortissements sur immobilisations corporelles": {},
+          "6308-Dotations aux réductions de valeur sur immobilisations incorporelles": {},
+          "6309-Dotations aux réductions de valeur sur immobilisations corporelles": {}
         },
-        "Provisions pour autres risques et charges": {
-          "Dotations ": {},
-          "Utilisations et reprises": {}
+        "631-Réductions de valeur sur stocks": {
+          "6310-Dotations": {},
+          "6311-Reprises": {}
         },
-        "Provisions pour grosses réparations et gros entretiens": {
-          "Dotations": {},
-          "Utilisations et reprises": {}
+        "632-Réductions de valeur sur commandes en cours d'exécution": {
+          "6320-Dotations": {},
+          "6321-Reprises": {}
         },
-        "Provisions pour pensions et obligations similaires": {
-          "Dotations": {},
-          "Utilisations et reprises": {}
+        "633-Réductions de valeur sur créances commerciales à plus d'un an": {
+          "6330-Dotations": {},
+          "6331-Reprises": {}
         },
-        "Réductions de valeur sur commandes en cours d'exécution": {
-          "Dotations": {},
-          "Reprises": {}
+        "634-Réductions de valeur sur créances commerciales à un an au plus": {
+          "6340-Dotations": {},
+          "6341-Reprises": {}
         },
-        "Réductions de valeur sur créances commerciales à plus d'un an": {
-          "Dotations": {},
-          "Reprises": {}
+        "635-Provisions pour pensions et obligations similaires": {
+          "6350-Dotations": {},
+          "6351-Utilisations et reprises": {}
         },
-        "Réductions de valeur sur créances commerciales à un an au plus": {
-          "Dotations": {},
-          "Reprises": {}
+        "636-Provisions pour grosses réparations et gros entretiens": {
+          "6360-Dotations": {},
+          "6361-Utilisations et reprises": {}
         },
-        "Réductions de valeur sur stocks": {
-          "Dotations": {},
-          "Reprises": {}
+        "637-Provisions pour autres risques et charges": {
+          "6370-Dotations ": {},
+          "6371-Utilisations et reprises": {}
         }
       },
       "64-AUTRES CHARGES D'EXPLOITATION": {
-        "Charges d'exploitation portées à l'actif au titre de restructuration": {},
-        "Charges fiscales d'exploitation": {
-          "Impôts provinciaux et communaux": {
-            "Taxe sur la force motrice": {},
-            "Taxe sur le personnel occupé": {}
+        "640-Charges fiscales d'exploitation": {
+          "6400-Taxes et impôts directs": {
+            "64000-Taxes sur autos et camions": {}
           },
-          "Taxes diverses": {},
-          "Taxes et impôts directs": {
-            "Taxes sur autos et camions": {}
+          "6401-Taxes et impôts indirects": {
+            "64010-Timbres fiscaux pris en charge par la firme": {},
+            "64011-Droits d'enregistrement": {},
+            "64012-T.V.A. non déductible": {}
           },
-          "Taxes et impôts indirects": {
-            "Droits d'enregistrement": {},
-            "T.V.A. non déductible": {},
-            "Timbres fiscaux pris en charge par la firme": {}
-          }
+          "6402-Impôts provinciaux et communaux": {
+            "64020-Taxe sur la force motrice": {},
+            "64021-Taxe sur le personnel occupé": {}
+          },
+          "6403-Taxes diverses": {}
         },
-        "Moins-values sur réalisations courantes d'immobilisations corporelles": {},
-        "Moins-values sur réalisations de créances commerciales": {},
-        "à 648 Charges d'exploitations diverses": {}
+        "641-Moins-values sur réalisations courantes d'immobilisations corporelles": {},
+        "642-Moins-values sur réalisations de créances commerciales": {},
+        "643-Charges d'exploitations diverses": {},
+        "649-Charges d'exploitation portées à l'actif au titre de restructuration": {}
       },
       "65-CHARGES FINANCIERES": {
-        "Charges d'escompte de créances": {},
-        "Charges des dettes": {
-          "Amortissements des agios et frais d'émission d'emprunts": {},
-          "Autres charges de dettes": {},
-          "Intérêts intercalaires portés à l'actif": {},
-          "Intérêts, commissions et frais afférents aux dettes": {}
+        "650-Charges des dettes": {
+          "6500-Intérêts, commissions et frais afférents aux dettes": {},
+          "6501-Amortissements des agios et frais d'émission d'emprunts": {},
+          "6502-Autres charges de dettes": {},
+          "6503-Intérêts intercalaires portés à l'actif": {}
         },
-        "Commissions sur ouvertures de crédit, cautions, avals": {},
-        "Différences de change": {},
-        "Ecarts de conversion des devises": {},
-        "Frais de banques, de chèques postaux": {},
-        "Frais de vente des titres": {},
-        "Moins-values sur réalisation d'actifs circulants": {},
-        "Réductions de valeur sur actifs circulants": {
-          "Dotations ": {},
-          "Reprises": {}
-        }
+        "651-Réductions de valeur sur actifs circulants": {
+          "6510-Dotations ": {},
+          "6511-Reprises": {}
+        },
+        "652-Moins-values sur réalisation d'actifs circulants": {},
+        "653-Charges d'escompte de créances": {},
+        "654-Différences de change": {},
+        "655-Ecarts de conversion des devises": {},
+        "656-Frais de banques, de chèques postaux": {},
+        "657-Commissions sur ouvertures de crédit, cautions, avals": {},
+        "658-Frais de vente des titres": {}
       },
       "66-CHARGES EXCEPTIONNELLES": {
-        "Amortissements et réductions de valeur exceptionnels": {
-          "Sur frais d'établissement": {},
-          "Sur immobilisations corporelles": {},
-          "Sur immobilisations incorporelles": {}
+        "660-Amortissements et réductions de valeur exceptionnels": {
+          "6600-Sur frais d'établissement": {},
+          "6601-Sur immobilisations incorporelles": {},
+          "6602-Sur immobilisations corporelles": {}
         },
-        "Autres charges exceptionnelles": {},
-        "Charges exceptionnelles transférées à l'actif en frais de restructuration": {},
-        "Différence de charge": {},
-        "Moins-values sur réalisation d'actifs immobilisés": {
-          "Sur immeubles acquis ou construits en vue de la revente": {},
-          "Sur immobilisations corporelles": {},
-          "Sur immobilisations détenues en location-financement et droits similaires": {},
-          "Sur immobilisations financières": {},
-          "Sur immobilisations incorporelles": {}
+        "661-Réductions de valeur sur immobilisations financières": {},
+        "662-Provisions pour risques et charges exceptionnels": {
+          "6620-Dotations": {},
+          "6621-Utilisations": {}
         },
-        "Provisions pour risques et charges exceptionnels": {},
-        "Pénalités et amendes diverses": {},
-        "Réductions de valeur sur immobilisations financières": {}
+        "663-Moins-values sur réalisation d'actifs immobilisés": {
+          "6630-Sur immobilisations incorporelles": {},
+          "6631-Sur immobilisations corporelles": {},
+          "6632-Sur immobilisations détenues en location-financement et droits similaires": {},
+          "6633-Sur immobilisations financières": {},
+          "6634-Sur immeubles acquis ou construits en vue de la revente": {}
+        },
+        "664-Autres charges d'exploitation non récurrentes": {},
+        "664-Pénalités et amendes diverses": {},
+        "665-Différence de charge": {},
+        "668-Autres charges financières non récurrentes": {},
+        "669-Charges exceptionnelles transférées à l'actif en frais de restructuration": {}
       },
       "67-IMPOTS SUR LE RESULTAT": {
-        "Impôts belges sur le résultat d'exercices antérieurs": {
-          "Provisions fiscales constituées": {},
-          "Suppléments d'impôts dus ou versés": {},
-          "Suppléments d'impôts estimés": {}
+        "670-Impôts belges sur le résultat de l'exercice": {
+          "6700-Impôts et précomptes dus ou versés": {},
+          "6701-Excédent de versements d'impôts et précomptes porté à l'actif": {},
+          "6702-Charges fiscales estimées": {}
         },
-        "Impôts belges sur le résultat de l'exercice": {
-          "Charges fiscales estimées": {},
-          "Excédent de versements d'impôts et précomptes porté à l'actif": {},
-          "Impôts et précomptes dus ou versés": {}
+        "671-Impôts belges sur le résultat d'exercices antérieurs": {
+          "6710-Suppléments d'impôts dus ou versés": {},
+          "6711-Suppléments d'impôts estimés": {},
+          "6712-Provisions fiscales constituées": {}
         },
-        "Impôts étrangers sur le résultat d'exercices antérieurs": {},
-        "Impôts étrangers sur le résultat de l'exercice": {}
+        "672-Impôts étrangers sur le résultat d'exercices antérieurs": {},
+        "673-Impôts étrangers sur le résultat de l'exercice": {}
       },
       "68-TRANSFERTS AUX RESERVES IMMUNISEES": {},
       "69-AFFECTATION DES RESULTATS": {
-        "Administrateurs ou gérants": {},
-        "Autres allocataires": {},
-        "Bénéfice à reporter": {},
-        "Dotation aux autres réserves": {},
-        "Dotation à la réserve légale": {},
-        "Perte reportée de l'exercice précédent": {},
-        "Rémunération du capital": {}
+        "690-Perte reportée de l'exercice précédent": {},
+        "691-Dotation à la réserve légale": {},
+        "692-Dotation aux autres réserves": {},
+        "693-Bénéfice à reporter": {},
+        "694-Rémunération du capital": {},
+        "695-Administrateurs ou gérants": {},
+        "696-Autres allocataires": {}
       },
       "root_type": "Expense"
     },
