@@ -438,7 +438,7 @@
           "Réductions de valeur actées": {}
         }
       },
-      "root_type": ""
+      "root_type": "Asset"
     },
     "CLASSE 3. STOCK ET COMMANDES EN COURS D'EXECUTION": {
       "30-APPROVISIONNEMENTS - MATIERES PREMIERES": {
@@ -1132,87 +1132,198 @@
       "root_type": ""
     },
     "CLASSE 5. PLACEMENTS DE TRESORERIE ET DE VALEURS DISPONIBLES": {
-      "ACTIONS ET PARTS": {
-        "Montants non appelés": {
+      "50-ACTIONS PROPRES": {
+        "account_type": "Cash"
+      },
+      "51-ACTIONS ET PARTS": {
+        "510-Valeur d'acquisition": {
           "account_type": "Cash"
         },
-        "Réductions de valeur actées": {
+        "511-Montants non appelés": {
           "account_type": "Cash"
         },
-        "Valeur d'acquisition": {
+        "519-Réductions de valeur actées": {
           "account_type": "Cash"
         }
       },
-      "ACTIONS PROPRES": {
-        "account_type": "Cash"
+      "52-TITRES A REVENUS FIXES": {
+        "520-Valeur d'acquisition": {
+          "account_type": "Cash"
+        },
+        "529-Réductions de valeur actées": {
+          "account_type": "Cash"
+        }
       },
-      "CAISSES": {
-        "Caisses - espèces": {
+      "53-DEPOTS A TERME": {
+        "530-De plus d'un an": {
+          "account_type": "Cash"
+        },
+        "531-De plus d'un mois et à un an au plus": {
+          "account_type": "Cash"
+        },
+        "532-D'un mois au plus": {
+          "account_type": "Cash"
+        },
+        "539-Réductions de valeur actées": {
+          "account_type": "Cash"
+        }
+      },
+      "54-VALEURS ECHUES A L'ENCAISSEMENT": {
+        "540-Chèques à encaisser": {
+          "account_type": "Cash"
+        },
+        "541-Coupons à encaisser": {
+          "account_type": "Cash"
+        }
+      },
+      "55-ETABLISSEMENTS DE CREDIT.": {
+        "550-Comptes ouverts auprès des divers établissements": {}
+      },
+      "56-OFFICE DES CHEQUES POSTAUX": {
+        "560-Compte courant": {
+          "account_type": "Cash"
+        },
+        "561-Chèques émis": {
+          "account_type": "Cash"
+        }
+      },
+      "57-CAISSES": {
+        "570-Caisses - espèces": {
           "Caisse principale": {
             "account_type": "Cash"
           }
         },
-        "Caisses - timbres": {
+        "578-Caisses - timbres": {
           "account_type": "Cash"
         }
       },
-      "DEPOTS A TERME": {
-        "D'un mois au plus": {
-          "account_type": "Cash"
-        },
-        "De plus d'un an": {
-          "account_type": "Cash"
-        },
-        "De plus d'un mois et à un an au plus": {
-          "account_type": "Cash"
-        },
-        "Réductions de valeur actées": {
-          "account_type": "Cash"
-        }
-      },
-      "ETABLISSEMENTS DE CREDIT.": {
-        "Comptes ouverts auprès des divers établissements": {}
-      },
-      "OFFICE DES CHEQUES POSTAUX": {
-        "Chèques émis": {
-          "account_type": "Cash"
-        },
-        "Compte courant": {
-          "account_type": "Cash"
-        }
-      },
-      "TITRES A REVENUS FIXES": {
-        "Réductions de valeur actées": {
-          "account_type": "Cash"
-        },
-        "Valeur d'acquisition": {
-          "account_type": "Cash"
-        }
-      },
-      "VALEURS ECHUES A L'ENCAISSEMENT": {
-        "Chèques à encaisser": {
-          "account_type": "Cash"
-        },
-        "Coupons à encaisser": {
-          "account_type": "Cash"
-        }
-      },
-      "VIREMENTS INTERNES": {
+      "58-VIREMENTS INTERNES": {
         "account_type": "Cash"
       },
-      "root_type": ""
+      "root_type": "Asset"
     },
     "CLASSE 6. - CHARGES": {
-      "AFFECTATION DES RESULTATS": {
-        "Administrateurs ou gérants": {},
-        "Autres allocataires": {},
-        "Bénéfice à reporter": {},
-        "Dotation aux autres réserves": {},
-        "Dotation à la réserve légale": {},
-        "Perte reportée de l'exercice précédent": {},
-        "Rémunération du capital": {}
+      "60-APPROVISIONNEMENTS ET MARCHANDISES": {
+        "600-Achats de matières premières": {},
+        "601-Achats de fournitures": {},
+        "602-Achats de services, travaux et études": {},
+        "603-Sous-traitances générales": {},
+        "604-Achats de marchandises": {},
+        "605-Achats d'immeubles destinés à la revente": {},
+        "608-Remises, ristournes et rabais obtenus sur achats": {},
+        "609-Variations de stocks": {
+          "6090-De matières premières": {},
+          "6091-De fournitures": {},
+          "6094-De marchandises": {},
+          "6095-D'immeubles destinés à la vente": {}
+        }
       },
-      "AMORTISSEMENTS, REDUCTIONS DE VALEUR ET PROVISIONS POUR RISQUES ET CHARGES": {
+      "61-SERVICES ET BIENS DIVERS": {
+        "610-Loyers et charges locatives": {
+          "6100-Loyers divers": {},
+          "6101-Charges locatives": {}
+        },
+        "611-Entretien et réparation": {},
+        "612-Fournitures faites à l'entreprise": {
+          "6120-Eau, gaz, électricité, vapeur": {
+            "61200-Eau": {},
+            "61201-Electricité": {},
+            "61202-Gaz": {},
+            "61203-Vapeur": {}
+          },
+          "6121-Téléphone, télégrammes, télex, téléfax, frais postaux": {
+            "61210-Téléphone": {},
+            "61211-Télégrammes": {},
+            "61212-Télex et téléfax": {},
+            "61213-Frais postaux": {}
+          },
+          "6122-Livres, bibliothèque": {},
+          "6123-Imprimés et fournitures de bureau": {}
+        },
+        "613-Rétributions de tiers": {
+          "6130-Redevances et royalties": {
+            "61300-Redevances pour brevets, licences, marques, accessoires": {},
+            "61301-Autres redevances": {}
+          },
+          "6131-Assurances non relatives au personnel": {
+            "61310-Assurance incendie": {},
+            "61311-Assurance vol": {},
+            "61312-Assurance autos": {},
+            "61313-Assurance crédit": {},
+            "61314-Assurances frais généraux": {}
+          },
+          "6132-Divers": {
+            "61320-Commissions aux tiers": {},
+            "61321-Honoraires d'avocats, d'experts, etc ...": {},
+            "61322-Cotisations aux groupements professionnels": {},
+            "61323-Dons, libéralités, ...": {},
+            "61324-Frais de contentieux": {},
+            "61325-Publications légales": {}
+          },
+          "6133-Transports et déplacements": {
+            "61330-Transports de personnel": {},
+            "61331-Voyages, déplacements, représentations": {}
+          },
+          "6134-Personnel intérimaire": {}
+        },
+        "614-Annonces, publicité, propagande et documentation": {
+          "6140-Annonces et insertions": {},
+          "6141-Catalogues et imprimés": {},
+          "6142-Echantillons": {},
+          "6143-Foires et expositions": {},
+          "6144-Primes": {},
+          "6145-Cadeaux à la clientèle": {},
+          "6146-Missions et réceptions": {},
+          "6147-Documentation": {}
+        },
+        "615-Sous-traitants": {
+          "6150-Sous-traitants pour activités propres": {},
+          "6151-Sous-traitants d'associations momentanées": {},
+          "6152-Quote-part bénéficiaire des coparticipants": {}
+        },
+        "617-Personnel intérimaire et personnes mises à la disposition  de l'entreprise": {},
+        "618-Rémunérations, primes pour assurances extralégales": {}
+      },
+      "62-REMUNERATIONS, CHARGES SOCIALES ET PENSIONS": {
+        "620-Rémunérations et avantages sociaux directs": {
+          "6200-Administrateurs ou gérants": {},
+          "6201-Personnel de direction": {},
+          "6202-Employés": {},
+          "6203-Ouvriers": {},
+          "6204-Autres membres du personnel": {}
+        },
+        "621-Cotisations patronales d'assurances sociales": {
+          "6210-Sur salaires": {},
+          "6211-Sur appointements et commissions": {}
+        },
+        "622-Primes patronales pour assurances extralégales": {},
+        "623-Autres frais de personnel": {
+          "6230-Assurances du personnel": {
+            "62300-Assurances loi, responsabilité civile, chemin du travail": {},
+            "62301-Assurance salaire garanti": {},
+            "62302-Assurances individuelles": {}
+          },
+          "6231-Charges sociales diverses": {
+            "62310-Jours fériés payés": {},
+            "62311-Salaire hebdomadaire garanti": {},
+            "62312-Allocations familiales complémentaires": {}
+          },
+          "6232-Charges sociales des administrateurs, gérants et commissaires": {
+            "62320-Allocations familiales complémentaires pour non salariés": {},
+            "62321-Lois sociales pour indépendants": {},
+            "62322-Divers": {}
+          }
+        },
+        "624-Pensions de retraite et de survie": {
+          "6240-Administrateurs et gérants": {},
+          "6241-Personnel": {}
+        },
+        "625-Provision pour pécule de vacances": {
+          "6250-Dotations": {},
+          "6251-Utilisations et reprises": {}
+        }
+      },
+      "63-AMORTISSEMENTS, REDUCTIONS DE VALEUR ET PROVISIONS POUR RISQUES ET CHARGES": {
         "Dotations aux amortissements et aux réductions de valeur sur immobilisations": {
           "Dotations aux amortissements sur frais d'établissement": {},
           "Dotations aux amortissements sur immobilisations corporelles": {},
@@ -1249,22 +1360,7 @@
           "Reprises": {}
         }
       },
-      "APPROVISIONNEMENTS ET MARCHANDISES": {
-        "Achats d'immeubles destinés à la revente": {},
-        "Achats de fournitures": {},
-        "Achats de marchandises": {},
-        "Achats de matières premières": {},
-        "Achats de services, travaux et études": {},
-        "Remises, ristournes et rabais obtenus sur achats": {},
-        "Sous-traitances générales": {},
-        "Variations de stocks": {
-          "D'immeubles destinés à la vente": {},
-          "De fournitures": {},
-          "De marchandises": {},
-          "De matières premières": {}
-        }
-      },
-      "AUTRES CHARGES D'EXPLOITATION": {
+      "64-AUTRES CHARGES D'EXPLOITATION": {
         "Charges d'exploitation portées à l'actif au titre de restructuration": {},
         "Charges fiscales d'exploitation": {
           "Impôts provinciaux et communaux": {
@@ -1285,7 +1381,26 @@
         "Moins-values sur réalisations de créances commerciales": {},
         "à 648 Charges d'exploitations diverses": {}
       },
-      "CHARGES EXCEPTIONNELLES": {
+      "65-CHARGES FINANCIERES": {
+        "Charges d'escompte de créances": {},
+        "Charges des dettes": {
+          "Amortissements des agios et frais d'émission d'emprunts": {},
+          "Autres charges de dettes": {},
+          "Intérêts intercalaires portés à l'actif": {},
+          "Intérêts, commissions et frais afférents aux dettes": {}
+        },
+        "Commissions sur ouvertures de crédit, cautions, avals": {},
+        "Différences de change": {},
+        "Ecarts de conversion des devises": {},
+        "Frais de banques, de chèques postaux": {},
+        "Frais de vente des titres": {},
+        "Moins-values sur réalisation d'actifs circulants": {},
+        "Réductions de valeur sur actifs circulants": {
+          "Dotations ": {},
+          "Reprises": {}
+        }
+      },
+      "66-CHARGES EXCEPTIONNELLES": {
         "Amortissements et réductions de valeur exceptionnels": {
           "Sur frais d'établissement": {},
           "Sur immobilisations corporelles": {},
@@ -1305,26 +1420,7 @@
         "Pénalités et amendes diverses": {},
         "Réductions de valeur sur immobilisations financières": {}
       },
-      "CHARGES FINANCIERES": {
-        "Charges d'escompte de créances": {},
-        "Charges des dettes": {
-          "Amortissements des agios et frais d'émission d'emprunts": {},
-          "Autres charges de dettes": {},
-          "Intérêts intercalaires portés à l'actif": {},
-          "Intérêts, commissions et frais afférents aux dettes": {}
-        },
-        "Commissions sur ouvertures de crédit, cautions, avals": {},
-        "Différences de change": {},
-        "Ecarts de conversion des devises": {},
-        "Frais de banques, de chèques postaux": {},
-        "Frais de vente des titres": {},
-        "Moins-values sur réalisation d'actifs circulants": {},
-        "Réductions de valeur sur actifs circulants": {
-          "Dotations ": {},
-          "Reprises": {}
-        }
-      },
-      "IMPOTS SUR LE RESULTAT": {
+      "67-IMPOTS SUR LE RESULTAT": {
         "Impôts belges sur le résultat d'exercices antérieurs": {
           "Provisions fiscales constituées": {},
           "Suppléments d'impôts dus ou versés": {},
@@ -1338,112 +1434,16 @@
         "Impôts étrangers sur le résultat d'exercices antérieurs": {},
         "Impôts étrangers sur le résultat de l'exercice": {}
       },
-      "REMUNERATIONS, CHARGES SOCIALES ET PENSIONS": {
-        "Autres frais de personnel": {
-          "Assurances du personnel": {
-            "Assurance salaire garanti": {},
-            "Assurances individuelles": {},
-            "Assurances loi, responsabilité civile, chemin du travail": {}
-          },
-          "Charges sociales des administrateurs, gérants et commissaires": {
-            "Allocations familiales complémentaires pour non salariés": {},
-            "Divers": {},
-            "Lois sociales pour indépendants": {}
-          },
-          "Charges sociales diverses": {
-            "Allocations familiales complémentaires": {},
-            "Jours fériés payés": {},
-            "Salaire hebdomadaire garanti": {}
-          }
-        },
-        "Cotisations patronales d'assurances sociales": {
-          "Sur appointements et commissions": {},
-          "Sur salaires": {}
-        },
-        "Pensions de retraite et de survie": {
-          "Administrateurs et gérants": {},
-          "Personnel": {}
-        },
-        "Primes patronales pour assurances extralégales": {},
-        "Provision pour pécule de vacances": {
-          "Dotations": {},
-          "Utilisations et reprises": {}
-        },
-        "Rémunérations et avantages sociaux directs": {
-          "Administrateurs ou gérants": {},
-          "Autres membres du personnel": {},
-          "Employés": {},
-          "Ouvriers": {},
-          "Personnel de direction": {}
-        }
+      "68-TRANSFERTS AUX RESERVES IMMUNISEES": {},
+      "69-AFFECTATION DES RESULTATS": {
+        "Administrateurs ou gérants": {},
+        "Autres allocataires": {},
+        "Bénéfice à reporter": {},
+        "Dotation aux autres réserves": {},
+        "Dotation à la réserve légale": {},
+        "Perte reportée de l'exercice précédent": {},
+        "Rémunération du capital": {}
       },
-      "SERVICES ET BIENS DIVERS": {
-        "Annonces, publicité, propagande et documentation": {
-          "Annonces et insertions": {},
-          "Cadeaux à la clientèle": {},
-          "Catalogues et imprimés": {},
-          "Documentation": {},
-          "Echantillons": {},
-          "Foires et expositions": {},
-          "Missions et réceptions": {},
-          "Primes": {}
-        },
-        "Entretien et réparation": {},
-        "Fournitures faites à l'entreprise": {
-          "Eau, gaz, électricité, vapeur": {
-            "Eau": {},
-            "Electricité": {},
-            "Gaz": {},
-            "Vapeur": {}
-          },
-          "Imprimés et fournitures de bureau": {},
-          "Livres, bibliothèque": {},
-          "Téléphone, télégrammes, télex, téléfax, frais postaux": {
-            "Frais postaux": {},
-            "Télex et téléfax": {},
-            "Télégrammes": {},
-            "Téléphone": {}
-          }
-        },
-        "Loyers et charges locatives": {
-          "Charges locatives": {},
-          "Loyers divers": {}
-        },
-        "Personnel intérimaire et personnes mises à la disposition  de l'entreprise": {},
-        "Rémunérations, primes pour assurances extralégales": {},
-        "Rétributions de tiers": {
-          "Assurances non relatives au personnel": {
-            "Assurance autos": {},
-            "Assurance crédit": {},
-            "Assurance incendie": {},
-            "Assurance vol": {},
-            "Assurances frais généraux": {}
-          },
-          "Divers": {
-            "Commissions aux tiers": {},
-            "Cotisations aux groupements professionnels": {},
-            "Dons, libéralités, ...": {},
-            "Frais de contentieux": {},
-            "Honoraires d'avocats, d'experts, etc ...": {},
-            "Publications légales": {}
-          },
-          "Personnel intérimaire": {},
-          "Redevances et royalties": {
-            "Autres redevances": {},
-            "Redevances pour brevets, licences, marques, accessoires": {}
-          },
-          "Transports et déplacements": {
-            "Transports de personnel": {},
-            "Voyages, déplacements, représentations": {}
-          }
-        },
-        "Sous-traitants": {
-          "Quote-part bénéficiaire des coparticipants": {},
-          "Sous-traitants d'associations momentanées": {},
-          "Sous-traitants pour activités propres": {}
-        }
-      },
-      "TRANSFERTS AUX RESERVES IMMUNISEES": {},
       "root_type": ""
     },
     "CLASSE 7. - PRODUITS": {
