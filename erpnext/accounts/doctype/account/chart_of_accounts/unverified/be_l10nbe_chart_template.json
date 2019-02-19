@@ -2,7 +2,7 @@
   "country_code": "be",
   "name": "Belgian - PCMN",
   "tree": {
-    "CLASSE 1. FONDS PROPRES, PROVISIONS POUR RISQUES\nET CHARGES ET DETTES A PLUS D'UN AN ": {
+    "CLASSE 1. FONDS PROPRES, PROVISIONS POUR RISQUES ET CHARGES ET DETTES A PLUS D'UN AN ": {
       "10-CAPITAL": {
         "100-Capital souscrit ou capital personnel": {
           "1000-Capital non amorti": {},
@@ -1444,7 +1444,7 @@
         "Perte reportée de l'exercice précédent": {},
         "Rémunération du capital": {}
       },
-      "root_type": ""
+      "root_type": "Expense"
     },
     "CLASSE 7. - PRODUITS": {
       "AFFECTATION AUX RESULTATS": {
@@ -1558,7 +1558,7 @@
         "Des immeubles construits destinés à la vente": {},
         "Des produits finis": {}
       },
-      "root_type": ""
+      "root_type": "Income"
     }
   }
 }
