@@ -586,518 +586,545 @@
         "account_type": "Stock"
       },
       "account_type": "Stock",
-      "root_type": ""
+      "root_type": "Asset"
     },
     "CLASSE 4. CREANCES ET DETTES A UN AN AU PLUS": {
-      "ACOMPTES RECUS SUR COMMANDES": {
+      "40-CREANCES COMMERCIALES": {
+        "400-Clients": {
+          "4000-Clients": {
+            "account_type": "Receivable"
+          },
+          "4007-Rabais, remises, ristournes à accorder et autres notes de crédit à établir": {
+            "account_type": "Receivable"
+          },
+          "4008-Créances résultant de livraisons de biens": {
+            "account_type": "Receivable"
+          }
+        },
+        "401-Effets à recevoir": {
+          "4010-Effets à recevoir": {
+            "account_type": "Receivable"
+          },
+          "4013-Effets à l'encaissement": {
+            "account_type": "Receivable"
+          },
+          "4015-Effets à l'escompte": {
+            "account_type": "Receivable"
+          }
+        },
+        "402-Clients, créances courantes, entreprises apparentées, administrateurs et gérants": {
+          "4020-Entreprises liées": {
+            "account_type": "Receivable"
+          },
+          "4021-Autres entreprises avec lesquelles il existe un lien de participation": {
+            "account_type": "Receivable"
+          },
+          "4022-Administrateurs et gérants d'entreprise": {
+            "account_type": "Receivable"
+          }
+        },
+        "403-Effets à recevoir sur entreprises apparentées et administrateurs et gérants": {
+          "4030-Autres entreprises avec lesquelles il existe un lien de participation": {
+            "account_type": "Receivable"
+          },
+          "4031-Entreprises liées": {
+            "account_type": "Receivable"
+          },
+          "4032-Administrateurs et gérants de l'entreprise": {
+            "account_type": "Receivable"
+          }
+        },
+        "404-Produits à recevoir": {
+          "account_type": "Receivable"
+        },
+        "405-Clients : retenues sur garanties": {
+          "account_type": "Receivable"
+        },
+        "406-Acomptes versés": {
+          "account_type": "Receivable"
+        },
+        "407-Créances douteuses": {
+          "account_type": "Receivable"
+        },
+        "408-Compensation clients": {
+          "account_type": "Receivable"
+        },
+        "409-Réductions de valeur actées": {
+          "account_type": "Receivable"
+        }
+      },
+      "41-AUTRES CREANCES": {
+        "410-Capital appelé, non versé": {
+          "4100-Appels de fonds": {
+            "account_type": "Receivable"
+          },
+          "4101-Actionnaires défaillants": {
+            "account_type": "Receivable"
+          }
+        },
+        "411-T.V.A. à récupérer": {
+          "4110-Taxe d'égalisation due": {
+            "account_type": "Receivable"
+          },
+          "4111-T.V.A déductible": {
+            "account_type": "Receivable"
+          },
+          "4112-Compte courant administration T.V.A.": {
+            "account_type": "Receivable"
+          },
+          "4118-Taxe d'égalisation due": {
+            "account_type": "Receivable"
+          }
+        },
+        "412-Impôts et versements fiscaux à récupérer": {
+          "4120-Impôts belges sur le résultat": {
+            "account_type": "Receivable"
+          },
+          "4121-Impôts belges sur le résultat": {
+            "account_type": "Receivable"
+          },
+          "4123-Impôts belges sur le résultat": {
+            "account_type": "Receivable"
+          },
+          "4124-Impôts belges sur le résultat": {
+            "account_type": "Receivable"
+          },
+          "4125-Autres impôts belges": {
+            "account_type": "Receivable"
+          },
+          "4126-Autres impôts belges": {
+            "account_type": "Receivable"
+          },
+          "4127-Autres impôts belges": {
+            "account_type": "Receivable"
+          },
+          "4128-Impôts étrangers": {
+            "account_type": "Receivable"
+          }
+        },
+        "414-Produits à recevoir": {
+          "account_type": "Receivable"
+        },
+        "416-Créances diverses": {
+          "4160-Associés": {
+            "account_type": "Receivable"
+          },
+          "4161-Avances et prêts au personnel": {
+            "account_type": "Receivable"
+          },
+          "4162-Compte courant des associés en S.P.R.L.": {
+            "account_type": "Receivable"
+          },
+          "4163-Compte courant des administrateurs et gérants": {
+            "account_type": "Receivable"
+          },
+          "4164-Créances sur sociétés apparentées": {
+            "account_type": "Receivable"
+          },
+          "4166-Emballages et matériel à rendre": {
+            "account_type": "Receivable"
+          },
+          "4167-Etat et établissements publics": {
+            "41670-Subsides à recevoir": {
+              "account_type": "Receivable"
+            },
+            "41671-Autres créances": {
+              "account_type": "Receivable"
+            }
+          },
+          "4168-Rabais, ristournes, remises à obtenir et autres avoirs non encore reçus": {
+            "account_type": "Receivable"
+          }
+        },
+        "417-Créances douteuses": {
+          "account_type": "Receivable"
+        },
+        "418-Cautionnements versés en numéraires": {
+          "account_type": "Receivable"
+        },
+        "419-Réductions de valeur actées": {
+          "account_type": "Receivable"
+        }
+      },
+      "42-DETTES A PLUS D'UN AN ECHEANT DANS L'ANNEE": {
+        "420-Emprunts subordonnés": {
+          "4200-Convertibles": {
+            "account_type": "Payable"
+          },
+          "4201-Non convertibles": {
+            "account_type": "Payable"
+          }
+        },
+        "421-Emprunts obligataires non subordonnés": {
+          "4210-Convertibles": {
+            "account_type": "Payable"
+          },
+          "4211-Non convertibles": {
+            "account_type": "Payable"
+          }
+        },
+        "422-Dettes de location-financement et assimilées": {
+          "4220-Financement de biens immobiliers": {
+            "account_type": "Payable"
+          },
+          "4221-Financement de biens mobiliers": {
+            "account_type": "Payable"
+          }
+        },
+        "423-Etablissements de crédit": {
+          "4230-Dettes en compte": {
+            "account_type": "Payable"
+          },
+          "4231-Promesses": {
+            "account_type": "Payable"
+          },
+          "4232-Crédits d'acceptation": {
+            "account_type": "Payable"
+          }
+        },
+        "424-Autres emprunts": {
+          "account_type": "Payable"
+        },
+        "425-Dettes commerciales": {
+          "4250-Fournisseurs": {
+            "account_type": "Payable"
+          },
+          "4251-Effets à payer": {
+            "account_type": "Payable"
+          }
+        },
+        "426-Cautionnements reçus en numéraires": {
+          "account_type": "Payable"
+        },
+        "429-Dettes diverses": {
+          "4290-Entreprises avec lesquelles il existe un lien de participation": {
+            "account_type": "Payable"
+          },
+          "4291-Entreprises liées": {
+            "account_type": "Payable"
+          },
+          "4292-Administrateurs, gérants, associés": {
+            "account_type": "Payable"
+          },
+          "4299-Autres dettes": {
+            "account_type": "Payable"
+          }
+        }
+      },
+      "43-DETTES FINANCIERES": {
+        "430-Etablissements de crédit. Emprunts en compte à terme fixe": {
+          "account_type": "Payable"
+        },
+        "431-Etablissements de crédit. Promesses": {
+          "account_type": "Payable"
+        },
+        "432-Etablissements de crédit. Crédits d'acceptation": {
+          "account_type": "Payable"
+        },
+        "433-Etablissements de crédit. Dettes en compte courant": {
+          "account_type": "Payable"
+        },
+        "439-Autres emprunts": {
+          "account_type": "Payable"
+        }
+      },
+      "44-DETTES COMMERCIALES": {
+        "440-Fournisseurs": {
+          "4400-Entreprises apparentées": {
+            "44000-Entreprises liées": {
+              "account_type": "Payable"
+            },
+            "44001-Entreprises avec lesquelles il existe un lien de participation": {
+              "account_type": "Payable"
+            }
+          },
+          "4401-Fournisseurs ordinaires": {
+            "44010-Fournisseurs belges": {
+              "account_type": "Payable"
+            },
+            "44011-Fournisseurs CEE": {
+              "account_type": "Payable"
+            },
+            "44012-Fournisseurs importation": {
+              "account_type": "Payable"
+            }
+          },
+          "4402-Dettes envers les coparticipants": {
+            "account_type": "Payable"
+          },
+          "4403-Fournisseurs - retenues de garanties": {
+            "account_type": "Payable"
+          }
+        },
+        "441-Effets à payer": {
+          "4410-Entreprises apparentées": {
+            "44100-Entreprises liées": {
+              "account_type": "Payable"
+            },
+            "44101-Entreprises avec lesquelles il existe un lien de participation": {
+              "account_type": "Payable"
+            }
+          },
+          "4411-Fournisseurs ordinaires": {
+            "44110-Fournisseurs belges": {
+              "account_type": "Payable"
+            },
+            "44111-Fournisseurs CEE": {
+              "account_type": "Payable"
+            },
+            "44112-Fournisseurs importation": {
+              "account_type": "Payable"
+            }
+          }
+        },
+        "444-Factures à recevoir": {
+          "account_type": "Payable"
+        },
+        "446-Acomptes reçus": {
+          "account_type": "Payable"
+        },
+        "448-Compensations fournisseurs": {
+          "account_type": "Payable"
+        }
+      },
+      "45-DETTES FISCALES, SALARIALES ET SOCIALES": {
+        "450-Dettes fiscales estimées": {
+          "4501-Impôts sur le résultat": {
+            "account_type": "Payable"
+          },
+          "4502-Impôts sur le résultat": {
+            "account_type": "Payable"
+          },
+          "4503-Impôts sur le résultat": {
+            "account_type": "Payable"
+          },
+          "4504-Impôts sur le résultat": {
+            "account_type": "Payable"
+          },
+          "4505-Autres impôts en Belgique": {
+            "account_type": "Payable"
+          },
+          "4506-Autres impôts en Belgique": {
+            "account_type": "Payable"
+          },
+          "4507-Autres impôts en Belgique": {
+            "account_type": "Payable"
+          },
+          "4508-Impôts à l'étranger": {
+            "account_type": "Payable"
+          }
+        },
+        "451-T.V.A. à payer": {
+          "4510-T.V.A. due": {
+            "account_type": "Payable"
+          },
+          "4511-T.V.A. déductible": {
+            "account_type": "Receivable"
+          },
+          "4512-Compte courant administration T.V.A.": {
+            "account_type": "Payable"
+          },
+          "4518-Taxe d'égalisation due": {
+            "account_type": "Payable"
+          }
+        },
+        "452-Impôts et taxes à payer": {
+          "4520-Autres impôts sur le résultat": {
+            "account_type": "Payable"
+          },
+          "4525-Autres impôts et taxes en Belgique": {
+            "45250-Précompte immobilier": {
+              "account_type": "Payable"
+            },
+            "45251-Impôts communaux à payer": {
+              "account_type": "Payable"
+            },
+            "45252-Impôts provinciaux à payer": {
+              "account_type": "Payable"
+            },
+            "45253-Autres impôts et taxes à payer": {
+              "account_type": "Payable"
+            }
+          },
+          "4528-Impôts et taxes à l'étranger": {
+            "account_type": "Payable"
+          }
+        },
+        "453-Précomptes retenus": {
+          "4530-Précompte professionnel retenu sur rémunérations": {
+            "account_type": "Payable"
+          },
+          "4531-Précompte professionnel retenu sur tantièmes": {
+            "account_type": "Payable"
+          },
+          "4532-Précompte mobilier retenu sur dividendes attribués": {
+            "account_type": "Payable"
+          },
+          "4533-Précompte mobilier retenu sur intérêts payés": {
+            "account_type": "Payable"
+          },
+          "4538-Autres précomptes retenus": {
+            "account_type": "Payable"
+          }
+        },
+        "454-Office National de la Sécurité Sociale": {
+          "4540-Arriérés": {
+            "account_type": "Payable"
+          },
+          "4541-1er trimestre": {
+            "account_type": "Payable"
+          },
+          "4542-2ème trimestre": {
+            "account_type": "Payable"
+          },
+          "4543-3ème trimestre": {
+            "account_type": "Payable"
+          },
+          "4544-4ème trimestre": {
+            "account_type": "Payable"
+          }
+        },
+        "455-Rémunérations": {
+          "4550-Administrateurs, gérants et commissaires": {
+            "account_type": "Payable"
+          },
+          "4551-Direction": {
+            "account_type": "Payable"
+          },
+          "4552-Employés": {
+            "account_type": "Payable"
+          },
+          "4553-Ouvriers": {
+            "account_type": "Payable"
+          }
+        },
+        "456-Pécules de vacances": {
+          "4560-Direction": {
+            "account_type": "Payable"
+          },
+          "4561-Employés": {
+            "account_type": "Payable"
+          },
+          "4562-Ouvriers": {
+            "account_type": "Payable"
+          }
+        },
+        "459-Autres dettes sociales": {
+          "4590-Provision pour gratifications de fin d'année": {
+            "account_type": "Payable"
+          },
+          "4591-Départs de personnel": {
+            "account_type": "Payable"
+          },
+          "4592-Oppositions sur rémunérations": {
+            "account_type": "Payable"
+          },
+          "4593-Assurances relatives au personnel": {
+            "45930-Assurance loi": {
+              "account_type": "Payable"
+            },
+            "45931-Assurance salaire garanti ": {
+              "account_type": "Payable"
+            },
+            "45932-Assurance groupe ": {
+              "account_type": "Payable"
+            },
+            "45933-Assurances individuelles": {
+              "account_type": "Payable"
+            }
+          },
+          "4594-Caisse d'assurances sociales pour travailleurs indépendants": {
+            "account_type": "Payable"
+          },
+          "4597-Dettes et provisions sociales diverses": {
+            "account_type": "Payable"
+          }
+        }
+      },
+      "46-ACOMPTES RECUS SUR COMMANDES": {
         "account_type": "Payable"
       },
-      "AUTRES CREANCES": {
-        "Capital appelé, non versé": {
-          "Actionnaires défaillants": {
-            "account_type": "Receivable"
-          },
-          "Appels de fonds": {
-            "account_type": "Receivable"
-          }
-        },
-        "Cautionnements versés en numéraires": {
-          "account_type": "Receivable"
-        },
-        "Créances diverses": {
-          "Associés": {
-            "account_type": "Receivable"
-          },
-          "Avances et prêts au personnel": {
-            "account_type": "Receivable"
-          },
-          "Compte courant des administrateurs et gérants": {
-            "account_type": "Receivable"
-          },
-          "Compte courant des associés en S.P.R.L.": {
-            "account_type": "Receivable"
-          },
-          "Créances sur sociétés apparentées": {
-            "account_type": "Receivable"
-          },
-          "Emballages et matériel à rendre": {
-            "account_type": "Receivable"
-          },
-          "Etat et établissements publics": {
-            "Autres créances": {
-              "account_type": "Receivable"
-            },
-            "Subsides à recevoir": {
-              "account_type": "Receivable"
-            }
-          },
-          "Rabais, ristournes, remises à obtenir et autres avoirs non encore reçus": {
-            "account_type": "Receivable"
-          }
-        },
-        "Créances douteuses": {
-          "account_type": "Receivable"
-        },
-        "Impôts et versements fiscaux à récupérer": {
-          "Impôts étrangers": {
-            "account_type": "Receivable"
-          },
-          "à 4124 Impôts belges sur le résultat": {
-            "account_type": "Receivable"
-          },
-          "à 4127 Autres impôts belges": {
-            "account_type": "Receivable"
-          }
-        },
-        "Produits à recevoir": {
-          "account_type": "Receivable"
-        },
-        "Réductions de valeur actées": {
-          "account_type": "Receivable"
-        },
-        "T.V.A. à récupérer": {
-          "Compte courant administration T.V.A.": {
-            "account_type": "Receivable"
-          },
-          "T.V.A Déductible": {
-            "account_type": "Receivable"
-          },
-          "Taxe d'égalisation due": {
-            "account_type": "Receivable"
-          }
-        }
-      },
-      "COMPTES DE REGULARISATION ET COMPTES D'ATTENTE": {
-        "Charges à imputer": {
+      "47-DETTES DECOULANT DE L'AFFECTATION DES RESULTATS": {
+        "470-Dividendes et tantièmes d'exercices antérieurs": {
           "account_type": "Payable"
         },
-        "Charges à reporter": {
+        "471-Dividendes de l'exercice": {
           "account_type": "Payable"
         },
-        "Comptes d'attente": {
-          "Compte d'attente": {
-            "account_type": "Payable"
-          },
-          "Compte de répartition périodique des charges": {
-            "account_type": "Payable"
-          },
-          "Transferts d'exercice": {
-            "account_type": "Payable"
-          }
-        },
-        "Produits acquis": {
-          "Produits d'exploitation": {
-            "Autres produits d'exploitation": {
-              "account_type": "Payable"
-            },
-            "Commissions à obtenir": {
-              "account_type": "Payable"
-            },
-            "Ristournes, rabais à obtenir": {
-              "account_type": "Payable"
-            }
-          },
-          "Produits financiers": {
-            "Autres produits financiers": {
-              "account_type": "Payable"
-            },
-            "Intérêts courus et non échus sur prêts et débits": {
-              "account_type": "Payable"
-            }
-          }
-        },
-        "Produits à reporter": {
-          "Produits d'exploitation à reporter": {
-            "account_type": "Payable"
-          },
-          "Produits financiers à reporter": {
-            "account_type": "Payable"
-          }
-        }
-      },
-      "CREANCES COMMERCIALES": {
-        "Acomptes versés": {
-          "account_type": "Receivable"
-        },
-        "Clients": {
-          "Clients": {
-            "account_type": "Receivable"
-          },
-          "Créances résultant de livraisons de biens": {
-            "account_type": "Receivable"
-          },
-          "Rabais, remises, ristournes à accorder et autres notes de crédit à établir": {
-            "account_type": "Receivable"
-          }
-        },
-        "Clients : retenues sur garanties": {
-          "account_type": "Receivable"
-        },
-        "Clients, créances courantes, entreprises apparentées, administrateurs et gérants": {
-          "Administrateurs et gérants d'entreprise": {
-            "account_type": "Receivable"
-          },
-          "Autres entreprises avec lesquelles il existe un lien de participation": {
-            "account_type": "Receivable"
-          },
-          "Entreprises liées": {
-            "account_type": "Receivable"
-          }
-        },
-        "Compensation clients": {
-          "account_type": "Receivable"
-        },
-        "Créances douteuses": {
-          "account_type": "Receivable"
-        },
-        "Effets à recevoir": {
-          "Effets à l'encaissement": {
-            "account_type": "Receivable"
-          },
-          "Effets à l'escompte": {
-            "account_type": "Receivable"
-          },
-          "Effets à recevoir": {
-            "account_type": "Receivable"
-          }
-        },
-        "Effets à recevoir sur entreprises apparentées et administrateurs et gérants": {
-          "Administrateurs et gérants de l'entreprise": {
-            "account_type": "Receivable"
-          },
-          "Autres entreprises avec lesquelles il existe un lien de participation": {
-            "account_type": "Receivable"
-          },
-          "Entreprises liées": {
-            "account_type": "Receivable"
-          }
-        },
-        "Produits à recevoir": {
-          "account_type": "Receivable"
-        },
-        "Réductions de valeur actées": {
-          "account_type": "Receivable"
-        }
-      },
-      "DETTES A PLUS D'UN AN ECHEANT DANS L'ANNEE": {
-        "Autres emprunts": {
+        "472-Tantièmes de l'exercice": {
           "account_type": "Payable"
         },
-        "Cautionnements reçus en numéraires": {
-          "account_type": "Payable"
-        },
-        "Dettes commerciales": {
-          "Effets à payer": {
-            "account_type": "Payable"
-          },
-          "Fournisseurs": {
-            "account_type": "Payable"
-          }
-        },
-        "Dettes de location-financement et assimilées": {
-          "Financement de biens immobiliers": {
-            "account_type": "Payable"
-          },
-          "Financement de biens mobiliers": {
-            "account_type": "Payable"
-          }
-        },
-        "Dettes diverses": {
-          "Administrateurs, gérants, associés": {
-            "account_type": "Payable"
-          },
-          "Autres dettes": {
-            "account_type": "Payable"
-          },
-          "Entreprises avec lesquelles il existe un lien de participation": {
-            "account_type": "Payable"
-          },
-          "Entreprises liées": {
-            "account_type": "Payable"
-          }
-        },
-        "Emprunts obligataires non subordonnés": {
-          "Convertibles": {
-            "account_type": "Payable"
-          },
-          "Non convertibles": {
-            "account_type": "Payable"
-          }
-        },
-        "Emprunts subordonnés": {
-          "Convertibles": {
-            "account_type": "Payable"
-          },
-          "Non convertibles": {
-            "account_type": "Payable"
-          }
-        },
-        "Etablissements de crédit": {
-          "Crédits d'acceptation": {
-            "account_type": "Payable"
-          },
-          "Dettes en compte": {
-            "account_type": "Payable"
-          },
-          "Promesses": {
-            "account_type": "Payable"
-          }
-        }
-      },
-      "DETTES COMMERCIALES": {
-        "Acomptes reçus": {
-          "account_type": "Payable"
-        },
-        "Compensations fournisseurs": {
-          "account_type": "Payable"
-        },
-        "Effets à payer": {
-          "Entreprises apparentées": {
-            "Entreprises avec lesquelles il existe un lien de participation": {
-              "account_type": "Payable"
-            },
-            "Entreprises liées": {
-              "account_type": "Payable"
-            }
-          },
-          "Fournisseurs ordinaires": {
-            "Fournisseurs CEE": {
-              "account_type": "Payable"
-            },
-            "Fournisseurs belges": {
-              "account_type": "Payable"
-            },
-            "Fournisseurs importation": {
-              "account_type": "Payable"
-            }
-          }
-        },
-        "Factures à recevoir": {
-          "account_type": "Payable"
-        },
-        "Fournisseurs": {
-          "Dettes envers les coparticipants": {
-            "account_type": "Payable"
-          },
-          "Entreprises apparentées": {
-            "Entreprises avec lesquelles il existe un lien de participation": {
-              "account_type": "Payable"
-            },
-            "Entreprises liées": {
-              "account_type": "Payable"
-            }
-          },
-          "Fournisseurs - retenues de garanties": {
-            "account_type": "Payable"
-          },
-          "Fournisseurs ordinaires": {
-            "Fournisseurs CEE": {
-              "account_type": "Payable"
-            },
-            "Fournisseurs belges": {
-              "account_type": "Payable"
-            },
-            "Fournisseurs importation": {
-              "account_type": "Payable"
-            }
-          }
-        }
-      },
-      "DETTES DECOULANT DE L'AFFECTATION DES RESULTATS": {
-        "Autres allocataires": {
-          "account_type": "Payable"
-        },
-        "Dividendes de l'exercice": {
-          "account_type": "Payable"
-        },
-        "Dividendes et tantièmes d'exercices antérieurs": {
-          "account_type": "Payable"
-        },
-        "Tantièmes de l'exercice": {
+        "473-Autres allocataires": {
           "account_type": "Payable"
         }
       },
-      "DETTES DIVERSES": {
-        "Acomptes reçus d'autres tiers à moins d'un an": {
+      "48-DETTES DIVERSES": {
+        "480-Obligations et coupons échus": {
           "account_type": "Payable"
         },
-        "Actionnaires - capital à rembourser": {
+        "481-Actionnaires - capital à rembourser": {
           "account_type": "Payable"
         },
-        "Autres dettes diverses": {
+        "482-Participation du personnel à payer": {
           "account_type": "Payable"
         },
-        "Cautionnements reçus en numéraires": {
+        "483-Acomptes reçus d'autres tiers à moins d'un an": {
           "account_type": "Payable"
         },
-        "Emballages et matériel consignés": {
+        "486-Emballages et matériel consignés": {
           "account_type": "Payable"
         },
-        "Obligations et coupons échus": {
+        "488-Cautionnements reçus en numéraires": {
           "account_type": "Payable"
         },
-        "Participation du personnel à payer": {
-          "account_type": "Payable"
-        }
-      },
-      "DETTES FINANCIERES": {
-        "Autres emprunts": {
-          "account_type": "Payable"
-        },
-        "Etablissements de crédit. Crédits d'acceptation": {
-          "account_type": "Payable"
-        },
-        "Etablissements de crédit. Dettes en compte courant": {
-          "account_type": "Payable"
-        },
-        "Etablissements de crédit. Emprunts en compte à terme fixe": {
-          "account_type": "Payable"
-        },
-        "Etablissements de crédit. Promesses": {
+        "489-Autres dettes diverses": {
           "account_type": "Payable"
         }
       },
-      "DETTES FISCALES, SALARIALES ET SOCIALES": {
-        "Autres dettes sociales": {
-          "Assurances relatives au personnel": {
-            "Assurance groupe ": {
+      "49-COMPTES DE REGULARISATION ET COMPTES D'ATTENTE": {
+        "490-Charges à reporter": {
+          "account_type": "Payable"
+        },
+        "491-Produits acquis": {
+          "4910-Produits d'exploitation": {
+            "49100-Ristournes, rabais à obtenir": {
               "account_type": "Payable"
             },
-            "Assurance loi": {
+            "49101-Commissions à obtenir": {
               "account_type": "Payable"
             },
-            "Assurance salaire garanti ": {
-              "account_type": "Payable"
-            },
-            "Assurances individuelles": {
+            "49102-Autres produits d'exploitation": {
               "account_type": "Payable"
             }
           },
-          "Caisse d'assurances sociales pour travailleurs indépendants": {
-            "account_type": "Payable"
-          },
-          "Dettes et provisions sociales diverses": {
-            "account_type": "Payable"
-          },
-          "Départs de personnel": {
-            "account_type": "Payable"
-          },
-          "Oppositions sur rémunérations": {
-            "account_type": "Payable"
-          },
-          "Provision pour gratifications de fin d'année": {
-            "account_type": "Payable"
-          }
-        },
-        "Dettes fiscales estimées": {
-          "Impôts à l'étranger": {
-            "account_type": "Payable"
-          },
-          "à 4504 Impôts sur le résultat": {
-            "account_type": "Payable"
-          },
-          "à 4507 Autres impôts en Belgique": {
-            "account_type": "Payable"
-          }
-        },
-        "Impôts et taxes à payer": {
-          "Autres impôts et taxes en Belgique": {
-            "Autres impôts et taxes à payer": {
+          "4911-Produits financiers": {
+            "49110-Intérêts courus et non échus sur prêts et débits": {
               "account_type": "Payable"
             },
-            "Impôts communaux à payer": {
-              "account_type": "Payable"
-            },
-            "Impôts provinciaux à payer": {
-              "account_type": "Payable"
-            },
-            "Précompte immobilier": {
+            "49111-Autres produits financiers": {
               "account_type": "Payable"
             }
-          },
-          "Autres impôts sur le résultat": {
+          }
+        },
+        "492-Charges à imputer": {
+          "account_type": "Payable"
+        },
+        "493-Produits à reporter": {
+          "4930-Produits d'exploitation à reporter": {
             "account_type": "Payable"
           },
-          "Impôts et taxes à l'étranger": {
+          "4931-Produits financiers à reporter": {
             "account_type": "Payable"
           }
         },
-        "Office National de la Sécurité Sociale": {
-          "1er trimestre": {
+        "499-Comptes d'attente": {
+          "4990-Compte d'attente": {
             "account_type": "Payable"
           },
-          "2ème trimestre": {
+          "4991-Compte de répartition périodique des charges": {
             "account_type": "Payable"
           },
-          "3ème trimestre": {
-            "account_type": "Payable"
-          },
-          "4ème trimestre": {
-            "account_type": "Payable"
-          },
-          "Arriérés": {
-            "account_type": "Payable"
-          }
-        },
-        "Précomptes retenus": {
-          "Autres précomptes retenus": {
-            "account_type": "Payable"
-          },
-          "Précompte mobilier retenu sur dividendes attribués": {
-            "account_type": "Payable"
-          },
-          "Précompte mobilier retenu sur intérêts payés": {
-            "account_type": "Payable"
-          },
-          "Précompte professionnel retenu sur rémunérations": {
-            "account_type": "Payable"
-          },
-          "Précompte professionnel retenu sur tantièmes": {
-            "account_type": "Payable"
-          }
-        },
-        "Pécules de vacances": {
-          "Direction": {
-            "account_type": "Payable"
-          },
-          "Employés": {
-            "account_type": "Payable"
-          },
-          "Ouvriers": {
-            "account_type": "Payable"
-          }
-        },
-        "Rémunérations": {
-          "Administrateurs, gérants et commissaires": {
-            "account_type": "Payable"
-          },
-          "Direction": {
-            "account_type": "Payable"
-          },
-          "Employés": {
-            "account_type": "Payable"
-          },
-          "Ouvriers": {
-            "account_type": "Payable"
-          }
-        },
-        "T.V.A. à payer": {
-          "Compte courant administration T.V.A.": {
-            "account_type": "Payable"
-          },
-          "T.V.A. à payer": {
-            "account_type": "Payable"
-          },
-          "T.V.A. à payer - Cocontractant": {
-            "account_type": "Receivable"
-          },
-          "T.V.A. à payer - Import": {
-            "account_type": "Receivable"
-          },
-          "T.V.A. à payer - Intra-communautaire": {
-            "account_type": "Receivable"
-          },
-          "Taxe d'égalisation due": {
+          "4999-Transferts d'exercice": {
             "account_type": "Payable"
           }
         }
