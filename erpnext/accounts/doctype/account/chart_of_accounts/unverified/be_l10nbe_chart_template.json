@@ -329,75 +329,75 @@
                 }
             },
             "26-AUTRES IMMOBILISATIONS CORPORELLES": {
-                "Amortissements sur autres immobilisations corporelles": {
-                    "Amortissements sur emballages r\u00e9cup\u00e9rables": {},
-                    "Amortissements sur frais d'am\u00e9nagement des locaux pris en location": {},
-                    "Amortissements sur maison d'habitation": {},
-                    "Amortissements sur mat\u00e9riel d'emballage": {},
-                    "Amortissements sur r\u00e9serve immobili\u00e8re": {}
-                },
-                "Emballages r\u00e9cup\u00e9rables": {},
-                "Frais d'am\u00e9nagements de locaux pris en location": {},
-                "Maison d'habitation": {},
-                "Mat\u00e9riel d'emballage": {},
-                "Plus-values act\u00e9es sur autres immobilisations corporelles": {},
-                "R\u00e9serve immobili\u00e8re": {}
+                "260-Frais d'am\u00e9nagements de locaux pris en location": {},
+                "261-Maison d'habitation": {},
+                "262-R\u00e9serve immobili\u00e8re": {},
+                "263-Mat\u00e9riel d'emballage": {},
+                "264-Emballages r\u00e9cup\u00e9rables": {},
+                "268-Plus-values act\u00e9es sur autres immobilisations corporelles": {},
+                "269-Amortissements sur autres immobilisations corporelles": {
+                    "2690-Amortissements sur frais d'am\u00e9nagement des locaux pris en location": {},
+                    "2691-Amortissements sur maison d'habitation": {},
+                    "2692-Amortissements sur r\u00e9serve immobili\u00e8re": {},
+                    "2693-Amortissements sur mat\u00e9riel d'emballage": {},
+                    "2694-Amortissements sur emballages r\u00e9cup\u00e9rables": {}
+                }
             },
             "27-IMMOBILISATIONS CORPORELLES EN COURS ET ACOMPTES VERSES": {
-                "Avances et acomptes vers\u00e9s sur immobilisations en cours": {},
-                "Immobilisations en cours": {
-                    "Autres immobilisations corporelles": {},
-                    "Constructions": {},
-                    "Installations, machines et outillage": {},
-                    "Mobilier et mat\u00e9riel roulant": {}
+                "271-Avances et acomptes vers\u00e9s sur immobilisations en cours": {},
+                "270-Immobilisations en cours": {
+                    "2700-Constructions": {},
+                    "2701-Installations, machines et outillage": {},
+                    "2702-Mobilier et mat\u00e9riel roulant": {},
+                    "2703-Autres immobilisations corporelles": {}
                 }
             },
             "28-IMMOBILISATIONS FINANCIERES": {
-                "Autres actions et parts": {
-                    "Montants non appel\u00e9s": {},
-                    "Plus-values act\u00e9es": {},
-                    "R\u00e9ductions de valeur act\u00e9es": {},
-                    "Valeur d'acquisition": {}
+                "280-Participations dans des entreprises li\u00e9es": {
+                    "2800-Valeur d'acquisition": {},
+                    "2801-Montants non appel\u00e9s": {},
+                    "2808-Plus-values act\u00e9es": {},
+                    "2809-R\u00e9ductions de valeurs act\u00e9es": {}
                 },
-                "Autres cr\u00e9ances": {
-                    "Cr\u00e9ances douteuses": {},
-                    "Cr\u00e9ances en compte": {},
-                    "Effets \u00e0 recevoir": {},
-                    "R\u00e9ductions de valeur act\u00e9es": {},
-                    "Titres \u00e0 revenu fixe": {}
+                "281-Cr\u00e9ances sur des entreprises li\u00e9es": {
+                    "2810-Cr\u00e9ances en compte": {},
+                    "2811-Effets \u00e0 recevoir": {},
+                    "2812-Titres \u00e0 revenu fixes": {},
+                    "2817-Cr\u00e9ances douteuses": {},
+                    "2819-R\u00e9ductions de valeurs act\u00e9es": {}
                 },
-                "Cautionnements vers\u00e9s en num\u00e9raires": {
-                    "Autres cautionnements vers\u00e9s en num\u00e9raires": {},
-                    "Eau": {},
-                    "Electricit\u00e9": {},
-                    "Gaz": {},
-                    "T\u00e9l\u00e9phone, t\u00e9lefax, t\u00e9lex": {}
+                "282-Participations dans des entreprises avec lesquelles il existe un lien de participation": {
+                    "2820-Valeur d'acquisition": {},
+                    "2821-Montants non appel\u00e9s": {},
+                    "2828-Plus-values act\u00e9es": {},
+                    "2829-R\u00e9ductions de valeurs act\u00e9es": {}
                 },
-                "Cr\u00e9ances sur des entreprises avec lesquelles il existe un lien de participation": {
-                    "Cr\u00e9ances douteuses": {},
-                    "Cr\u00e9ances en compte": {},
-                    "Effets \u00e0 recevoir": {},
-                    "R\u00e9ductions de valeurs act\u00e9es": {},
-                    "Titres \u00e0 revenu fixe": {}
+                "283-Cr\u00e9ances sur des entreprises avec lesquelles il existe un lien de participation": {
+                    "2830-Cr\u00e9ances en compte": {},
+                    "2831-Effets \u00e0 recevoir": {},
+                    "2832-Titres \u00e0 revenu fixes": {},
+                    "2837-Cr\u00e9ances douteuses": {},
+                    "2839-R\u00e9ductions de valeurs act\u00e9es": {}
                 },
-                "Cr\u00e9ances sur des entreprises li\u00e9es": {
-                    "Cr\u00e9ances douteuses": {},
-                    "Cr\u00e9ances en compte": {},
-                    "Effets \u00e0 recevoir": {},
-                    "R\u00e9ductions de valeurs act\u00e9es": {},
-                    "Titres \u00e0 revenu fixes": {}
+                "284-Autres actions et parts": {
+                    "2840-Valeur d'acquisition": {},
+                    "2841-Montants non appel\u00e9s": {},
+                    "2848-Plus-values act\u00e9es": {},
+                    "2849-R\u00e9ductions de valeurs act\u00e9es": {}
                 },
-                "Participations dans des entreprises avec lesquelles il existe un lien de participation": {
-                    "Montants non appel\u00e9s": {},
-                    "Plus-values act\u00e9es": {},
-                    "R\u00e9ductions de valeurs act\u00e9es": {},
-                    "Valeur d'acquisition": {}
+                "285-Autres cr\u00e9ances": {
+                    "2850-Cr\u00e9ances en compte": {},
+                    "2851-Effets \u00e0 recevoir": {},
+                    "2852-Titres \u00e0 revenu fixes": {},
+                    "2857-Cr\u00e9ances douteuses": {},
+                    "2859-R\u00e9ductions de valeurs act\u00e9es": {}
                 },
-                "Participations dans des entreprises li\u00e9es": {
-                    "Montants non appel\u00e9s": {},
-                    "Plus-values act\u00e9es": {},
-                    "R\u00e9ductions de valeurs act\u00e9es": {},
-                    "Valeur d'acquisition": {}
+                "288-Cautionnements vers\u00e9s en num\u00e9raires": {
+                    "2880-T\u00e9l\u00e9phone, t\u00e9lefax, t\u00e9lex": {},
+                    "2881-Gaz": {},
+                    "2882-Eau": {},
+                    "2883-Electricit\u00e9": {},
+                    "2887-Autres cautionnements vers\u00e9s en num\u00e9raires": {}
                 }
             },
             "29-CREANCES A PLUS D'UN AN": {
