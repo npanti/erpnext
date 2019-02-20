@@ -2,7 +2,7 @@
   "country_code": "be",
   "name": "Belgian - PCMN",
   "tree": {
-    "CLASSE 1. FONDS PROPRES, PROVISIONS POUR RISQUES ET CHARGES ET DETTES A PLUS D'UN AN ": {
+    "CLASSE 1. FONDS PROPRES ": {
       "10-CAPITAL": {
         "100-Capital souscrit ou capital personnel": {
           "1000-Capital non amorti": {},
@@ -51,6 +51,9 @@
         "150-Montants obtenus": {},
         "151-Montants transférés aux résultats": {}
       },
+      "root_type": "Equity"
+    },
+    "CLASSE 1. PROVISIONS POUR RISQUES ET CHARGES ET DETTES A PLUS D'UN AN": {
       "16-PROVISIONS POUR RISQUES ET CHARGES": {
         "160-Provisions pour pensions et obligations similaires": {},
         "161-Provisions pour charges fiscales": {},
@@ -127,7 +130,7 @@
         }
       },
       "18-COMPTES DE LIAISON DES ETABLISSEMENTS ET SUCCURSALES": {},
-      "root_type": "Equity"
+      "root_type": "Liability"
     },
     "CLASSE 2. FRAIS D'ETABLISSEMENT. ACTIFS IMMOBILISES ET CREANCES A PLUS D'UN AN": {
       "20-FRAIS D'ETABLISSEMENT": {
@@ -588,7 +591,7 @@
       "account_type": "Stock",
       "root_type": "Asset"
     },
-    "CLASSE 4. CREANCES ET DETTES A UN AN AU PLUS": {
+    "CLASSE 4. CREANCES": {
       "40-CREANCES COMMERCIALES": {
         "400-Clients": {
           "4000-Clients": {
@@ -746,6 +749,9 @@
           "account_type": "Receivable"
         }
       },
+      "root_type": "Asset"
+    },
+    "CLASSE 4. DETTES A UN AN AU PLUS": {
       "42-DETTES A PLUS D'UN AN ECHEANT DANS L'ANNEE": {
         "420-Emprunts subordonnés": {
           "4200-Convertibles": {
@@ -1129,7 +1135,7 @@
           }
         }
       },
-      "root_type": ""
+      "root_type": "Liability"
     },
     "CLASSE 5. PLACEMENTS DE TRESORERIE ET DE VALEURS DISPONIBLES": {
       "50-ACTIONS PROPRES": {
