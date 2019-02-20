@@ -1451,116 +1451,116 @@
       "root_type": "Expense"
     },
     "CLASSE 7. - PRODUITS": {
-      "AFFECTATION AUX RESULTATS": {
-        "Bénéfice reporté de l'exercice précédent": {},
-        "Intervention d'associés": {},
-        "Perte à reporter": {},
-        "Prélèvement sur le capital et les primes d'émission": {},
-        "Prélèvement sur les réserves": {}
-      },
-      "AUTRES PRODUITS D'EXPLOITATION": {
-        "Commissions et courtages": {},
-        "Locations diverses à caractère professionnel": {},
-        "Plus-values sur réalisations courantes d'immobilisations corporelles": {},
-        "Plus-values sur réalisations de créances commerciales": {},
-        "Prestations de services": {},
-        "Produits de services exploités dans l'intérêt du personnel": {},
-        "Produits divers": {
-          "Bonis sur reprises d'emballages consignés": {},
-          "Bonis sur travaux en associations momentanées": {}
+      "70-CHIFFRE D'AFFAIRES": {
+        "700-Ventes de marchandises": {
+          "7000-Ventes en Belgique": {},
+          "7001-Ventes dans les pays membres de la C.E.E.": {},
+          "7002-Ventes à l'exportation": {}
         },
-        "Redevances pour brevets et licences": {},
-        "Revenus des immeubles affectés aux activités non professionnelles": {},
-        "Subsides d'exploitation et montants compensatoires": {}
-      },
-      "CHIFFRE D'AFFAIRES": {
-        "Facturations des travaux en cours": {},
-        "Prestations de services": {
-          "Prestations de services dans les pays membres de la C.E.E.": {},
-          "Prestations de services en Belgique": {},
-          "Prestations de services en vue de l'exportation": {}
+        "701-Ventes de produits finis": {
+          "7010-Ventes en Belgique": {},
+          "7011-Ventes dans les pays membres de la C.E.E.": {},
+          "7012-Ventes à l'exportation": {}
         },
-        "Pénalités et dédits obtenus par l'entreprise": {},
-        "Remises, ristournes et rabais accordés": {
-          "Mali sur travaux facturés aux associations momentanées": {},
-          "Sur prestations de services": {},
-          "Sur ventes de déchets et rebuts": {},
-          "Sur ventes de marchandises": {},
-          "Sur ventes de produits finis": {}
+        "702-Ventes de déchets et rebuts": {
+          "7020-Ventes en Belgique": {},
+          "7021-Ventes dans les pays membres de la C.E.E.": {},
+          "7022-Ventes à l'exportation": {}
         },
-        "Ventes d'emballages récupérables": {},
-        "Ventes de déchets et rebuts": {
-          "Ventes dans les pays membres de la C.E.E.": {},
-          "Ventes en Belgique": {},
-          "Ventes à l'exportation": {}
+        "703-Ventes d'emballages récupérables": {},
+        "704-Facturations des travaux en cours": {},
+        "705-Prestations de services": {
+          "7050-Prestations de services en Belgique": {},
+          "7051-Prestations de services dans les pays membres de la C.E.E.": {},
+          "7052-Prestations de services en vue de l'exportation": {}
         },
-        "Ventes de marchandises": {
-          "Ventes dans les pays membres de la C.E.E.": {},
-          "Ventes en Belgique": {},
-          "Ventes à l'exportation": {}
-        },
-        "Ventes de produits finis": {
-          "Ventes dans les pays membres de la C.E.E.": {},
-          "Ventes en Belgique": {},
-          "Ventes à l'exportation": {}
+        "706-Pénalités et dédits obtenus par l'entreprise": {},
+        "708-Remises, ristournes et rabais accordés": {
+          "7080-Sur ventes de marchandises": {},
+          "7081-Sur ventes de produits finis": {},
+          "7082-Sur ventes de déchets et rebuts": {},
+          "7083-Sur prestations de services": {},
+          "7084-Mali sur travaux facturés aux associations momentanées": {}
         }
       },
-      "PRODUCTION IMMOBILISEE": {
-        "En frais d'établissement": {},
-        "En immobilisations corporelles": {},
-        "En immobilisations en cours": {},
-        "En immobilisations incorporelles": {}
-      },
-      "PRODUITS EXCEPTIONNELS": {
-        "Autres produits exceptionnels": {},
-        "Plus-values sur réalisation d'actifs immobilisés": {
-          "Sur immobilisations corporelles": {},
-          "Sur immobilisations financières": {},
-          "Sur immobilisations incorporelles": {}
-        },
-        "Reprises d'amortissements et de réductions de valeur": {
-          "Sur immobilisations corporelles": {},
-          "Sur immobilisations incorporelles": {}
-        },
-        "Reprises de provisions pour risques et charges exceptionnelles": {},
-        "Reprises de réductions de valeur sur immobilisations financières": {}
-      },
-      "PRODUITS FINANCIERS": {
-        "Différences de change": {},
-        "Ecarts de conversion des devises": {},
-        "Escomptes obtenus": {},
-        "Plus-values sur réalisations d'actifs circulants": {},
-        "Produits des actifs circulants": {},
-        "Produits des autres créances": {},
-        "Produits des immobilisations financières": {
-          "Revenus des actions": {},
-          "Revenus des créances à plus d'un an": {},
-          "Revenus des obligations": {}
-        },
-        "Subsides en capital et en intérêts": {}
-      },
-      "REGULARISATIONS D'IMPOTS ET REPRISES DE PROVISIONS FISCALES": {
-        "Impôts belges sur le résultat": {
-          "Reprises de provisions fiscales": {},
-          "Régularisations d'impôts dus ou versés": {},
-          "Régularisations d'impôts estimés": {}
-        },
-        "Impôts étrangers sur le résultat": {}
-      },
-      "VARIATION DES STOCKS ET DES COMMANDES EN COURS D'EXECUTION": {
-        "Des commandes en cours d'exécution": {
-          "Bénéfices portés en compte sur commandes en cours": {
-            "Sur commandes en cours d'exécution": {},
-            "Sur travaux en cours des associations momentanées": {}
+      "71-VARIATION DES STOCKS ET DES COMMANDES EN COURS D'EXECUTION": {
+        "712-Des en cours de fabrication": {},
+        "713-Des produits finis": {},
+        "715-Des immeubles construits destinés à la vente": {},
+        "717-Des commandes en cours d'exécution": {
+          "7170-Commandes en cours - Coût de revient": {
+            "71700-Coût des commandes en cours d'exécution": {},
+            "71701-Coût des travaux en cours des associations momentanées": {}
           },
-          "Commandes en cours - Coût de revient": {
-            "Coût des commandes en cours d'exécution": {},
-            "Coût des travaux en cours des associations momentanées": {}
+          "7171-Bénéfices portés en compte sur commandes en cours": {
+            "71710-Sur commandes en cours d'exécution": {},
+            "71711-Sur travaux en cours des associations momentanées": {}
           }
+        }
+      },
+      "72-PRODUCTION IMMOBILISEE": {
+        "720-En frais d'établissement": {},
+        "721-En immobilisations incorporelles": {},
+        "722-En immobilisations corporelles": {},
+        "723-En immobilisations en cours": {}
+      },
+      "74-AUTRES PRODUITS D'EXPLOITATION": {
+        "740-Subsides d'exploitation et montants compensatoires": {},
+        "741-Plus-values sur réalisations courantes d'immobilisations corporelles": {},
+        "742-Plus-values sur réalisations de créances commerciales": {},
+        "743-Produits de services exploités dans l'intérêt du personnel": {},
+        "744-Commissions et courtages": {},
+        "745-Redevances pour brevets et licences": {},
+        "746-Prestations de services": {},
+        "747-Revenus des immeubles affectés aux activités non professionnelles": {},
+        "748-Locations diverses à caractère professionnel": {},
+        "749-Produits divers": {
+          "7490-Bonis sur reprises d'emballages consignés": {},
+          "7491-Bonis sur travaux en associations momentanées": {}
+        }
+      },
+      "75-PRODUITS FINANCIERS": {
+        "750-Produits des immobilisations financières": {
+          "7500-Revenus des actions": {},
+          "7501-Revenus des obligations": {},
+          "7502-Revenus des créances à plus d'un an": {}
         },
-        "Des en cours de fabrication": {},
-        "Des immeubles construits destinés à la vente": {},
-        "Des produits finis": {}
+        "751-Produits des actifs circulants": {},
+        "752-Plus-values sur réalisations d'actifs circulants": {},
+        "753-Subsides en capital et en intérêts": {},
+        "754-Différences de change": {},
+        "755-Ecarts de conversion des devises": {},
+        "756-Produits des autres créances": {},
+        "757-Escomptes obtenus": {}
+      },
+      "76-PRODUITS EXCEPTIONNELS": {
+        "760-Reprises d'amortissements et de réductions de valeur": {
+          "7600-Sur immobilisations incorporelles": {},
+          "7601-Sur immobilisations corporelles": {}
+        },
+        "761-Reprises de réductions de valeur sur immobilisations financières": {},
+        "762-Reprises de provisions pour risques et charges exceptionnelles": {},
+        "763-Plus-values sur réalisation d'actifs immobilisés": {
+          "7630-Sur immobilisations incorporelles": {},
+          "7631-Sur immobilisations corporelles": {},
+          "7632-Sur immobilisations financières": {}
+        },
+        "764-Autres produits exceptionnels": {}
+      },
+      "77-REGULARISATIONS D'IMPOTS ET REPRISES DE PROVISIONS FISCALES": {
+        "771-Impôts belges sur le résultat": {
+          "7710-Régularisations d'impôts dus ou versés": {},
+          "7711-Régularisations d'impôts estimés": {},
+          "7712-Reprises de provisions fiscales": {}
+        },
+        "772-Impôts étrangers sur le résultat": {}
+      },
+      "79-AFFECTATION AUX RESULTATS": {
+        "790-Bénéfice reporté de l'exercice précédent": {},
+        "791-Prélèvement sur le capital et les primes d'émission": {},
+        "792-Prélèvement sur les réserves": {},
+        "793-Perte à reporter": {},
+        "794-Intervention d'associés": {}
       },
       "root_type": "Income"
     }
