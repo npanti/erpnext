@@ -1195,7 +1195,7 @@
       },
       "57-CAISSES": {
         "570-Caisses - espèces": {
-          "Caisse principale": {
+          "5700-Caisse principale": {
             "account_type": "Cash"
           }
         },
